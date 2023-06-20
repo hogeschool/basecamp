@@ -203,8 +203,9 @@ def search_contacts(keyword):
     return list(filter(lambda c: keyword.lower() in c['name'].lower(), contacts))
 
 def delete_contact(name):
-    global contacts
-    contacts = [c for c in contacts if c['name'].lower() != name.lower()]
+    for contact in contacts:
+        if contact['name'].lower() == name.lower():
+            contacts.remove(contact)
 
 def update_contact(name, phone_numbers, email):
     for contact in contacts:
