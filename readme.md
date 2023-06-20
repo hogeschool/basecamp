@@ -32,8 +32,8 @@ As a result of participating in **BaseCamp:Arch One**, students will be able to:
 [Check Week 03/inf-bc-w03-python.md](./week03/inf-bc-w03-python.md) 
 
 
-### Week04: Review / Challenges.
-[Check Week 04/inf-bc-w04-challenge.md](./week04/inf-bc-w04-challenge.md) 
+<!-- ### Week04: Review / Challenges.
+[Check Week 04/inf-bc-w04-challenge.md](./week04/inf-bc-w04-challenge.md)  -->
 
 
 <br><br>
@@ -59,8 +59,8 @@ As a result of participating in **BaseCamp:Part Two**, students will be able to:
 ### Week07: Functions and Nested Structures.
 [Check Week 07/inf-bc-w07-python.md](./week07/inf-bc-w07-python.md) 
 
-### Week08: Review / Challenges.
-[Check Week 08/inf-bc-w08-python.md](./week08/inf-bc-w08-python.md) 
+<!-- ### Week08: Review / Challenges.
+[Check Week 08/inf-bc-w08-python.md](./week08/inf-bc-w08-python.md)  -->
 
 <br><br>
 
@@ -79,8 +79,8 @@ As a result of participating in **BaseCamp:Part Three**, students will be able t
 ### Week11: Structured Data Files.
 [Check Week 11/inf-bc-w11-python.md](./week11/inf-bc-w11-python.md) 
 
-### Week12: Review / Challenges
-[Check Week 12/inf-bc-w12-python.md](./week12/inf-bc-w12-python.md) 
+<!-- ### Week12: Review / Challenges
+[Check Week 12/inf-bc-w12-python.md](./week12/inf-bc-w12-python.md)  -->
 
 <br><br>
 ## Arch Four:
@@ -98,8 +98,8 @@ As a result of participating in **BaseCamp:Part Four**, students will be able to
 ### Week15: Functions: Recursion.
 [Check Week 15/inf-bc-w15-python.md](./week15/inf-bc-w15-python.md) 
 
-### Week16: Masterassignment
-[Check Week 16/inf-bc-w16-python.md](./week16/inf-bc-w16-python.md)
+<!-- ### Week16: Masterassignment
+[Check Week 16/inf-bc-w16-python.md](./week16/inf-bc-w16-python.md) -->
 
 <br><br>
 
