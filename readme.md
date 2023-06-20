@@ -36,7 +36,7 @@ As a result of participating in **BaseCamp:Arch One**, students will be able to:
 [Check Week 04/inf-bc-w04-challenge.md](./week04/inf-bc-w04-challenge.md) 
 
 
-<br>
+<br><br>
 
 ## Arch Two:
 As a result of participating in **BaseCamp:Part Two**, students will be able to:
@@ -62,7 +62,7 @@ As a result of participating in **BaseCamp:Part Two**, students will be able to:
 ### Week08: Review / Challenges.
 [Check Week 08/inf-bc-w08-python.md](./week08/inf-bc-w08-python.md) 
 
-<br>
+<br><br>
 
 ## Arch Three:
 
@@ -82,8 +82,7 @@ As a result of participating in **BaseCamp:Part Three**, students will be able t
 ### Week12: Review / Challenges
 [Check Week 12/inf-bc-w12-python.md](./week12/inf-bc-w12-python.md) 
 
-<br>
-
+<br><br>
 ## Arch Four:
 
 As a result of participating in **BaseCamp:Part Four**, students will be able to:
@@ -102,7 +101,7 @@ As a result of participating in **BaseCamp:Part Four**, students will be able to
 ### Week16: Masterassignment
 [Check Week 16/inf-bc-w16-python.md](./week16/inf-bc-w16-python.md)
 
-<br>
+<br><br>
 
 
 ## References:
