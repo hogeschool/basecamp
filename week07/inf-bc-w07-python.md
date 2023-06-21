@@ -204,7 +204,7 @@ A different dictionary could be:
 ## Learning Activities:
 
 ### Code Analysis
-1. Analyse the given code below without executing it. What will be the result of the program?
+1. Analyze the given code below without executing it. What will be the result of the program?
 
 ```python
 r = lambda a : a + 15
@@ -215,7 +215,7 @@ print(r(12, 4))
 
 2. One of the students has implemented the following code.
 	- Apply Input/Output testing and see if the program works correctly.
-	- Analyse the code (without execution) and see if you can detect the bug.
+	- Analyze the code (without execution) and see if you can detect the bug.
 	- Debug the code and validate your finding.
 
 ```python

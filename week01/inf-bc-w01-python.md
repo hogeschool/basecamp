@@ -34,8 +34,8 @@ After taking this step, you will be able to:
 1. Use **BRef-01: Chapter 01** as a reference and discuss the following questions:
    1. What is a general definition of a program? Provide some (none-computer) examples.
    2. What are the main elements of a program?
-   3. **First Taste of Python**: Read section *Little Programs* and analyse provided examples.
-   4. Consider the following python program and try to guess what each program does. Analyse and discuss inputs, behaviour and expected outputs. 
+   3. **First Taste of Python**: Read section *Little Programs* and analyze provided examples.
+   4. Consider the following python program and try to guess what each program does. Analyze and discuss inputs, behaviour and expected outputs. 
    		- *Note*: Certainly there might be some lines that will be impossible to understand fully. The goal is to evaluate your first taste of Python programs and check how intutive they are. You will be learning all details in later stages.  
    
 ```python
@@ -43,15 +43,15 @@ After taking this step, you will be able to:
 words = []
 num_str = input("How many words would you like to enter?")
 num = int(num_str)
-for _ in range(0,num):
-	word = input("Next word:")
+for _ in range(0, num):
+	word = input("Next word: ")
   	words.append(word)
-print("This is your list of words:",words)
+print("This is your list of words:", words)
 ```
    
 #### Exercises:
 
-1. Make a small research to understand the meaning of *syntax in programming*. Give three examples from the programs you have read in **BRef-01: Chapter 01**.
+1. Make a small research to understand the meaning of *syntax in programming*. Give three examples of the programs you have read in **BRef-01: Chapter 01**.
 2. Take each of the given following Python programs and carry out these steps:
 	- Write down sytactical elements that are understandable for you.
 	- Specify statements that you know (or you can guess) the results of the their executions.
@@ -73,7 +73,7 @@ print(b)
 	
 ```python
 #Code 03
-num = int(input("Enter a number"))
+num = int(input("Enter a number: "))
 if num < 0:
    print("Enter a positive number")
 else:
@@ -87,7 +87,7 @@ else:
 ```python
 #Code 04
 import random
-print(random.randint(0,9))
+print(random.randint(0, 9))
 ```
 	
 ```python
@@ -101,7 +101,7 @@ for word in words:
 ```
 
 
-3. Using **OPyEditor** try to execute the given programs. Does output of the programs match with your expectations?
+3. Using **OPyEditor** try to execute the given programs. Does the output of the programs match your expectations?
 
 
 <hr>
@@ -127,7 +127,7 @@ After taking this step, you will be able to:
    1. What is a value? What is a variable?
    2. What is a *type*? Provide five examples.
    3. How can you define a variable in Python? 
-   4. Define some variables in Python that are not permitted in Python. Experiment with breaking various rules in defining variables. Analyse the error message.
+   4. Define some variables in Python that are not permitted in Python. Experiment with breaking various rules in defining variables. Analyze the error message.
    5. How can you assign a value to a variable? How can we express that two items are equal?
    6. How can you identify the type of a value / variable?
 2. Perform a free (re)-search and answer the following questions:
@@ -177,18 +177,18 @@ After taking this step, you will be able to:
 1. Using **BRef-01: Chapter 03** answer the following questions:
    1. Name basic built-in data types in Python. Use examples.
    2. What are the basic arithmetic operations? Make a list with the meaning (semantics) of each operation.
-   3. Why *precedences* are important? Make examples.
+   3. Why are *precedences* important? Make examples.
    4. How can you convert one data type to another? Name basic built-in functions.
 
 #### Exercises:
 
 1. Create two variables with a number in it, you can decide which numbers, add them together and print the result.
-2. Do the same for subtraction, devide and multiply.
+2. Do the same for subtraction, division and multiplication.
 3. Get input from the user. Save it as a number. Print it.
 4. Try to divide something by zero. Describe the error you get.
-5. Create two variables with a text in it. Print them togeter at once, using only print statement.
+5. Create two variables with text in them. Print them togeter at once, using only print statement.
 6. Python uses PEMDAS. What is that and is it different from the way you learned it?
-7. Create one calculation using at least four parantheses, three multiplications and four subtractions. Print the result.
+7. Create one calculation using at least four parentheses, three multiplications and four subtractions. Print the result.
 8. Finish all the exercises listed in **BRef-01-Chapter 03: Things to Do**.
 
 <hr>
@@ -199,29 +199,29 @@ After taking this step, you will be able to:
 ### Code Analysis
 
 
-1. Analyze the programming solutions given below and write down in one sentence what do they do? What problems they try to solve?
+1. Analyze the programming solutions given below and write down in one sentence: what do they do? What problems do they try to solve?
 
 ```python
 # Code Analysis 1
 # Inputs
-val_A = int(input("enter value A: "))
-val_B = int(input("enter value B: "))
+val_a = int(input("enter value A: "))
+val_b = int(input("enter value B: "))
 
 # Processing
-val_T = val_A
-val_A = val_B
-val_B = val_T
+val_t = val_a
+val_a = val_b
+val_b = val_t
 
 # Outputs
-print("A =", val_A)
-print("B =", val_B)
+print("A =", val_a)
+print("B =", val_b)
 ```
 
 ```python
 # Code Analysis 2
 
 # Inputs
-num = int(input("enter numerical value: "))
+num = int(input("Enter a number: "))
 
 # Processing
 dig = num % 10
@@ -230,9 +230,9 @@ dig = num % 10
 print(dig)
 ```
 
-2. Implementing a solution for a given problem can be challenging for a beginner programmer. It is helpful to have a guideline with some steps. Check [this guideline](./checklist_metacog.pdf) and apply it for Problem 5 of this week. *Hint: A template with some examples provided [here](./template.py)*
+2. Implementing a solution for a given problem is challenging for a beginner programmer. It is helpful to have a guideline with some steps. Check [this guideline](./checklist_metacog.pdf) and apply it the Problem 5 of this week. *Hint: A template with some examples provided [here](./template.py)*
 
-3.  One of the students has tried to apply the guideline for a given problem. But, the code does not produce expected results. Check the code and without executing the code try to find the mistake.
+3.  One of the students has tried to apply the guideline for a given problem. But, the code does not produce the expected results. Check the code and without executing the code try to find the mistake.
 
 ```python
 # Ask the user for the name of item X.
@@ -246,17 +246,13 @@ print(dig)
 # Inputs
 name = input("Input the name of item X: ") 
 
-print("What is the price of", name, "?") 
-price = input()
+price = input("What is the price of", name, "? ")
 
-quantity = input("How many units of", name, "do you want to buy?")
+quantity = input("How many units of", name, "do you want to buy? ")
 
 # Processing
-to_pay = price * quantity
+total = price * quantity
 
 # Outputs
-print("To purchase", quantity, "units of", name, "you must pay", to_pay, "euros.")
+print("To purchase", quantity, "units of", name, "you must pay", total, "euros.")
 ```   
-
-   
-   

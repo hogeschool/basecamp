@@ -137,7 +137,7 @@ After taking this step, you will be able to:
 ## Learning Activities:
 
 ### Code Analysis
-1. Analyse the given code below without executing it. What will be the result of the program?
+1. Analyze the given code below without executing it. What will be the result of the program?
 
  ```python
 def do_something(*args, **kwargs):
@@ -149,7 +149,7 @@ def do_something(*args, **kwargs):
 #
 do_something("a", "z", "d", "b", a=1, b=2, c=3, d=4)
 ```
-2. Analyse the given code below without executing it. What will be the result of the program?
+2. Analyze the given code below without executing it. What will be the result of the program?
 
  ```python
 sfind = set('orihme')

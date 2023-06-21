@@ -138,7 +138,7 @@ After taking this step, you will be able to:
 ## Learning Activities:
 
 ### Code Analysis
-1. Analyse the two given codes below without executing them. What will be the result of the programs?
+1. Analyze the two given codes below without executing them. What will be the result of the programs?
 
 ```python
 a_tuple = ('Never', 'gonna', 'give', 'you', 'up')
