@@ -83,7 +83,7 @@ This Arch is constructed in the following weeks:
 
 **Programming Elements**: In **Arch Four** the following programming elements are covered:
 
-	- (basics of) databases using SQLite and simple queries: CREATE, INSERT , SELECT x,y,z FROM t WHERE c.
+	- (basics of) databases using SQLite and simple queries: CREATE, INSERT, DELETE, UPDATE, SELECT x,y,z FROM t WHERE c.
 	- functions as parameters, generators and decorators.
 	- recursive functions.
 
