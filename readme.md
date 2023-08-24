@@ -7,10 +7,10 @@ This collection covers a learning path for Basics of Programming. It covers acit
 ## Arch One:
 **Programming Elements**: In **Arch One** the following programming elements are covered:
 
-	- primitive data types: characters, strings, integer, float and booleans.
+	- primitive data types: character, string, integer, float and boolean.
 	- basic numerical operations: + , - , * , / , %
 	- simple user inputs and print formats.
-	- conditional statements: if-else statements
+	- boolean expressions and conditional statements: if-else statements
 	- loops: while and for.
 	- basic string processing: length, split, join, replace, join.
 
@@ -22,18 +22,12 @@ As a result of participating in **BaseCamp:Arch One**, students will be able to:
 4. Implementing their Python programs in Python Shell and an IDE.
 5. Execute Python programs using a terminal and an IDE.
 
-### Week01: Linear Programs.
-[Check Week 01/inf-bc-w01-python.md](./week01/inf-bc-w01-python.md) 
+This Arch is constructed in the following weeks:
 
-### Week02: Branching Programs.
-[Check Week 02/inf-bc-w02-python.md](./week02/inf-bc-w02-python.md) 
-
-### Week03: Iterative Programs.
-[Check Week 03/inf-bc-w03-python.md](./week03/inf-bc-w03-python.md) 
-
-
-<!-- ### Week04: Review / Challenges.
-[Check Week 04/inf-bc-w04-challenge.md](./week04/inf-bc-w04-challenge.md)  -->
+- [**Week01: Linear Programs**](./week01/inf-bc-w01-python.md) 
+- [**Week02: Branching Programs**](./week02/inf-bc-w02-python.md) 
+- [**Week03: Iterative Programs**](./week03/inf-bc-w03-python.md) 
+- **Week04: Review and Challenge**.
 
 
 <br><br>
