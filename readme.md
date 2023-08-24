@@ -33,14 +33,14 @@ This Arch is constructed in the following weeks:
 
 ## Arch Two:
 
-**Programming Elements**: In **Arch Two** the following programming elements are covered:[todo: in progress]
+**Programming Elements**: In **Arch Two** the following programming elements are covered:
 
 	- functions: function definition, calling functions, return of a function, functions with arguments, positional arguments, keyword arguments, parameters default values, docstrings, anonymous functions.
 	- collective structures: lists with basic operations (defining, offset, slicing, adding new element, modifying an element, list comprehension), tuples with basic operations (creating, unpacking, modifying, combining two tuples, iterating over a tuple), dictionaries with basic operations (creating, adding and modifying items,  extracting value(s), extracting key(s), deleting, pop and clear, iteration over dictionaries), sets with basic operations (creating sets, adding and removing elelemnts, membership operator, iteration over a set, basic operations between sets, i.e. intersection, union, difference and subset),  copy(), deepcopy(), nested structures.
 
 As a result of participating in **BaseCamp: Arch Two**, students will be able to:
 
-1. Read, Understand and Analyze the behaviour of a Python program implementing the programming elements covered in Arch One.
+1. Read, Understand and Analyze the behaviour of a Python program implementing the programming elements covered in Arch Two.
 2. Implement their solutions for a given problem statement using functions, list, tuple, set, and ditionaries.
 3. Debug and apply basics of testing (input / output and acceptance testing) on a given Python program.
 
@@ -64,7 +64,7 @@ This Arch is constructed in the following weeks:
 
 As a result of participating in **BaseCamp: Arch Three**, students will be able to:
 
-1. Read, Understand and Analyze the behaviour of a Python program implementing the programming elements covered in Arch One.
+1. Read, Understand and Analyze the behaviour of a Python program implementing the programming elements covered in Arch Three.
 2. Implement their solutions for a given problem statement employing Python class.
 3. Implement Python solutions to process and manipulate data provided as files (plain text, JSON and csv). 
 4. Apply basics of unit testing on a given Python program.
@@ -81,9 +81,16 @@ This Arch is constructed in the following weeks:
 
 ## Arch Four:
 
-**Programming Elements**: In **Arch Three** the following programming elements are covered:[todo: in progress]
+**Programming Elements**: In **Arch Four** the following programming elements are covered:
 
-	- [todo]
+	- (basics of) databases using SQLite and simple queries: CREATE, INSERT , SELECT x,y,z FROM t WHERE c.
+	- functions as parameters, generators and decorators.
+	- recursive functions.
+
+As a result of participating in **BaseCamp: Arch Four**, students will be able to:
+
+1. Read, Understand and Analyze the behaviour of a Python program implementing the programming elements covered in Arch Four.
+2. Implement Python solutions to process and manipulate data provided in a simple database (SQLite). 
 
 This Arch is constructed in the following weeks:
 
