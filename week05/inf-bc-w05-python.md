@@ -58,7 +58,7 @@ After taking this step, you will be able to:
 
 ```
 After taking this step, you will be able to:
-	1. interpret and implement Python programs using tuples.
+	1. interpret and implement Python programs using tuples: creating, unpacking, modifying, combining two tuples, iterating over a tuple.
 ```
 
 #### What to Learn?

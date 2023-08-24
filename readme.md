@@ -35,12 +35,8 @@ This Arch is constructed in the following weeks:
 
 **Programming Elements**: In **Arch Two** the following programming elements are covered:[todo: in progress]
 
-	- functions: function definition, calling functions, return of a function, functions with arguments, positional arguments, keyword arguments, parameters default values, docstrings, anonymous functions. 
-	- lists: defining, offset, slicing, adding new element, modifying an element.
-	- dictionaries: creating, adding and modifying items,  extracting value(s), extracting key(s), deleting, pop and clear, iteration over dictionaries.
-	- sets: creating sets, difference between sets and lists and tuples, adding and removing elelemnts, membership operator, iteration over a set, basic operations between sets, i.e. intersection, union, difference and subset.
-	- namespace and scope in Python programs
-	- operations of collective strctures: copy(), deepcopy(), list comprehension, dictionary comprehension, nested structures.
+	- functions: function definition, calling functions, return of a function, functions with arguments, positional arguments, keyword arguments, parameters default values, docstrings, anonymous functions.
+	- collective structures: lists with basic operations (defining, offset, slicing, adding new element, modifying an element, list comprehension), tuples with basic operations (creating, unpacking, modifying, combining two tuples, iterating over a tuple), dictionaries with basic operations (creating, adding and modifying items,  extracting value(s), extracting key(s), deleting, pop and clear, iteration over dictionaries), sets with basic operations (creating sets, adding and removing elelemnts, membership operator, iteration over a set, basic operations between sets, i.e. intersection, union, difference and subset),  copy(), deepcopy(), nested structures.
 
 As a result of participating in **BaseCamp: Arch Two**, students will be able to:
 
