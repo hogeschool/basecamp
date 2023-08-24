@@ -42,7 +42,7 @@ This Arch is constructed in the following weeks:
 	- namespace and scope in Python programs
 	- operations of collective strctures: copy(), deepcopy(), list comprehension, dictionary comprehension, nested structures.
 
-As a result of participating in **BaseCamp:Arch Two**, students will be able to:
+As a result of participating in **BaseCamp: Arch Two**, students will be able to:
 
 1. Read, Understand and Analyze the behaviour of a Python program implementing the programming elements covered in Arch One.
 2. Implement their solutions for a given problem statement using functions, list, tuple, set, and ditionaries.
