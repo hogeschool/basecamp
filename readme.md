@@ -56,9 +56,19 @@ This Arch is constructed in the following weeks:
 
 ## Arch Three:
 
-**Programming Elements**: In **Arch Three** the following programming elements are covered:[todo: in progress]
+**Programming Elements**: In **Arch Three** the following programming elements are covered:
 
-	- [todo]
+	- objects and classes: defining a class, instantiating an object, attributes and methods, initializing an object.
+	- plain data files: encoding / decoding, ascii and utf-8 encodings, binary vs text files, reading / modifying / wrting binary / text data files, searching content.
+	- structured data files: reading / writing content from / to CSV / JSON files, processing / modifying content of CSV / JSON files.
+
+As a result of participating in **BaseCamp: Arch Three**, students will be able to:
+
+1. Read, Understand and Analyze the behaviour of a Python program implementing the programming elements covered in Arch One.
+2. Implement their solutions for a given problem statement employing Python class.
+3. Implement Python solutions to process and manipulate data provided as files (plain text, JSON and csv). 
+4. Apply basics of unit testing on a given Python program.
+
 
 This Arch is constructed in the following weeks:
 
