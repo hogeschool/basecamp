@@ -18,16 +18,15 @@ As a result of participating in **BaseCamp:Arch One**, students will be able to:
 
 1. Read, Understand and Analyze the behaviour of a Python program implementing the programming elements covered in Arch One.
 2. Implement their solutions for a given problem statement using the programming elements covered in Arch One.
-3. Organise working environment using command lines for making folders, changing paths, listing contents of a folder, managing (copy, delete, rename) files.
-4. Implementing their Python programs in Python Shell and an IDE.
-5. Execute Python programs using a terminal and an IDE.
+3. Implementing their Python programs in Python Shell and an IDE.
+4. Execute Python programs using a terminal and an IDE.
 
 This Arch is constructed in the following weeks:
 
 - [**Week01: Linear Programs**](./week01/inf-bc-w01-python.md) 
 - [**Week02: Branching Programs**](./week02/inf-bc-w02-python.md) 
 - [**Week03: Iterative Programs**](./week03/inf-bc-w03-python.md) 
-- **Week04: Review and Challenge**.
+- **Week04: Review and Challenge**
 
 
 <br><br>
