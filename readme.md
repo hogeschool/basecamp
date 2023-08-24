@@ -35,8 +35,19 @@ This Arch is constructed in the following weeks:
 
 **Programming Elements**: In **Arch Two** the following programming elements are covered:[todo: in progress]
 
-	- primitive data types: character, string, integer, float and boolean.
-	- basic numerical operations: + , - , * , / , %
+	- functions: function definition, calling functions, return of a function, functions with arguments, positional arguments, keyword arguments, parameters default values, docstrings, anonymous functions. 
+	- lists: defining, offset, slicing, adding new element, modifying an element.
+	- dictionaries: creating, adding and modifying items,  extracting value(s), extracting key(s), deleting, pop and clear, iteration over dictionaries.
+	- sets: creating sets, difference between sets and lists and tuples, adding and removing elelemnts, membership operator, iteration over a set, basic operations between sets, i.e. intersection, union, difference and subset.
+	- namespace and scope in Python programs
+	- operations of collective strctures: copy(), deepcopy(), list comprehension, dictionary comprehension, nested structures.
+
+As a result of participating in **BaseCamp:Arch Two**, students will be able to:
+
+1. Read, Understand and Analyze the behaviour of a Python program implementing the programming elements covered in Arch One.
+2. Implement their solutions for a given problem statement using functions, list, tuple, set, and ditionaries.
+3. Debug and apply basics of testing (input / output and acceptance testing) on a given Python program.
+
 
 This Arch is constructed in the following weeks:
 
