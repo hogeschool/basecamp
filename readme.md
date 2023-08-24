@@ -32,67 +32,48 @@ This Arch is constructed in the following weeks:
 <br><br>
 
 ## Arch Two:
-As a result of participating in **BaseCamp:Part Two**, students will be able to:
 
-1. [todo: Python in progress]
-2. [todo: to be rephrased and aligned] Professionals skills: In Arch Two the following skills are covered: 
-	- Apply and reflect on time management 
-	- Research & problem solving 
-	- Presentation of products/assignments 
-	- Giving & receiving feedback 
-	- Testing 
-	- Introduction to GitHub 
+**Programming Elements**: In **Arch Two** the following programming elements are covered:[todo: in progress]
 
-### Week05: Functions, Lists and Tuples.
-[Check Week 05/inf-bc-w05-python.md](./week05/inf-bc-w05-python.md) 
+	- primitive data types: character, string, integer, float and boolean.
+	- basic numerical operations: + , - , * , / , %
 
-### Week06: Functions, Dictionaries and Sets.
-[Check Week 06/inf-bc-w06-python.md](./week06/inf-bc-w06-python.md) 
+This Arch is constructed in the following weeks:
 
-### Week07: Functions and Nested Structures.
-[Check Week 07/inf-bc-w07-python.md](./week07/inf-bc-w07-python.md) 
-
-<!-- ### Week08: Review / Challenges.
-[Check Week 08/inf-bc-w08-python.md](./week08/inf-bc-w08-python.md)  -->
+- [**Week05: Functions, Lists and Tuples**](./week05/inf-bc-w05-python.md) 
+- [**Week06: Functions, Dictionaries and Sets**](./week06/inf-bc-w06-python.md) 
+- [**Week07: Functions and Nested Structures**](./week07/inf-bc-w07-python.md) 
+- **Week08: Review and Challenge**
 
 <br><br>
 
 ## Arch Three:
 
-As a result of participating in **BaseCamp:Part Three**, students will be able to:
+**Programming Elements**: In **Arch Three** the following programming elements are covered:[todo: in progress]
 
-1. Plan and execute detailed learning activity provided given general learning goals and resources.
+	- [todo]
 
-### Week09: Everything is an Object.
-[Check Week 09/inf-bc-w09-python.md](./week09/inf-bc-w09-python.md) 
+This Arch is constructed in the following weeks:
 
-### Week10: (Plain) Data Files.
-[Check Week 10/inf-bc-w10-python.md](./week10/inf-bc-w10-python.md) 
-
-### Week11: Structured Data Files.
-[Check Week 11/inf-bc-w11-python.md](./week11/inf-bc-w11-python.md) 
-
-<!-- ### Week12: Review / Challenges
-[Check Week 12/inf-bc-w12-python.md](./week12/inf-bc-w12-python.md)  -->
+- [**Week09: Everything is an Object**](./week09/inf-bc-w09-python.md) 
+- [**Week10: (Plain) Data Files**](./week10/inf-bc-w10-python.md) 
+- [**Week11: Structured Data Files**](./week11/inf-bc-w11-python.md) 
+- **Week12: Review and Challenge**
 
 <br><br>
+
 ## Arch Four:
 
-As a result of participating in **BaseCamp:Part Four**, students will be able to:
+**Programming Elements**: In **Arch Three** the following programming elements are covered:[todo: in progress]
 
-1. Plan and execute weekly learning activity provided given end goals.
+	- [todo]
 
-### Week13: Data Base.
-[Check Week 13/inf-bc-w13-python.md](./week13/inf-bc-w13-python.md) 
+This Arch is constructed in the following weeks:
 
-### Week14: Functions: as a Type.
-[Check Week 14/inf-bc-w14-python.md](./week14/inf-bc-w14-python.md) 
-
-### Week15: Functions: Recursion.
-[Check Week 15/inf-bc-w15-python.md](./week15/inf-bc-w15-python.md) 
-
-<!-- ### Week16: Masterassignment
-[Check Week 16/inf-bc-w16-python.md](./week16/inf-bc-w16-python.md) -->
+- [**Week13: Data Base**](./week13/inf-bc-w13-python.md) 
+- [**Week14: Functions: as a Type**](./week14/inf-bc-w14-python.md) 
+- [**Week15: Functions: Recursion**](./week15/inf-bc-w15-python.md) 
+- **Week16: Review and Challenge**
 
 <br><br>
 
