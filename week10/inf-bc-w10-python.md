@@ -1,6 +1,6 @@
 # Python 10: (Plain) Data Files
 
-**Introduction**: This document presents learning steps for Python 10. In Python 10, you will get introduced with plain data files in Python. 
+**Introduction**: This document presents learning steps for Python 10. In Python 10, you will get introduced with plain data files in Python.
 
 **Note**: In this phase, it is expected the learner can divide the program into smaller learning steps. The goal and direction of the topics will be provided. The learning must take smaller steps towards the goals such that can implement solutions to the given problems and product(s).
 
@@ -8,7 +8,7 @@
 
 The activities are designed based on these following references:
 
-- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/) 
+- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
 - **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
 
 
@@ -32,7 +32,7 @@ After taking this step, you will be able to:
    4. Given an existing text file, how can we open and read the content in Python? What about a binary file?
    5. Given an existing text file, how can we open and add some new content? What about a binary file?
    6. Given an existing text file, how can we open and add search for an exact value? What about a binary file?
-   7. Given an existing text file, how can we open and add search for a pattern using regular expression? 
+   7. Given an existing text file, how can we open and add search for a pattern using regular expression?
 
 #### Exercises:
 

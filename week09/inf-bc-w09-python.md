@@ -8,7 +8,7 @@
 
 The activities are designed based on these following references:
 
-- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/) 
+- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
 - **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
 
 
@@ -34,7 +34,7 @@ After taking this step, you will be able to:
    4. What are attributes? How they help programmers to encapsulate their data values?
    5. What is a method? Focus only on *instance methods*.
    5. How can you initialize an instance (object)? Implement a class with **__init__** method.
-   
+
 
 #### Exercises:
 

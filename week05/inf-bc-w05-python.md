@@ -4,13 +4,13 @@
 
 **Note:** Exercises of this learning path can be done using:
 
-1. IDE: Using **BRef-01: Chapter 19, Section: Integrated Development Environment** PyCharm can be installed in your local machine.
+1. IDE: Using **BRef-01: Chapter 19, Section: Integrated Development Environment** PyCharm can be installed on your local machine.
 
 ## Materials:
 
 The activities are designed based on these following references:
 
-- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/) 
+- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
 - **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
 
 ## Path:
@@ -29,7 +29,7 @@ After taking this step, you will be able to:
 1. Using **BRef-01: Chapter 09** answer and experiment the following questions:
    1. What is a function in Python?
    2. What are the main elements of a Python function? Define a simple function that does nothing.
-   3. How can a function be used (called)? 
+   3. How can a function be used (called)?
    4. How can one return the result of a function?
    5. What are the arguments and/or parameters?
 
@@ -46,7 +46,7 @@ After taking this step, you will be able to:
 7. Create two functions. One that prints `hello`, the other prints `bye`. The first functions calls the second one after printing. Call the first function.
 8. Provide your solutions to the exercises of Python 05: Step-01. **ORef-01: Functions** can be used as extra learning reference.
 9. Design two exercises of your own. They should improve understanding topics of this step.
-10. Install *PyCharm* on your working machine. Implement and run a simple Python program of your choice. 
+10. Install *PyCharm* on your working machine. Implement and run a simple Python program of your choice.
 	- It is important to learn how to create a new Python program, how to configure interpreter and how to run the program. Where do you see the results?
 
 
@@ -65,7 +65,7 @@ After taking this step, you will be able to:
 
 1. Using **BRef-01: Chapter 07** answer and experiment the following questions:
    1. What is a tuple in Python and how is it defined?
-   2. How can one combine and compare two (or more) tuples? 
+   2. How can one combine and compare two (or more) tuples?
    3. How can one iterate over the elements of a tuple?
    4. How is a tuple modified?
 
@@ -98,7 +98,7 @@ After taking this step, you will be able to:
    4. How can you add new elements to a list?
    5. How can you modify elements of a list?
    6. How can one iterate over the elements of a list?
-   7. *Mutability* is one of the main differences between a tuple and a list. Elaborate this with some example. 
+   7. *Mutability* is one of the main differences between a tuple and a list. Elaborate this with some example.
 
 #### Exercises:
 
@@ -119,8 +119,8 @@ After taking this step, you will be able to:
 	- Print the second largest and second smallest entries in the list
 	- Print how many even numbers are in the list.
 5. Start with the list ```[8,9,10]```. Do the following:
-	- Set the second entry (index 1) to 17 
-	- Add 4,5, and 6 to the end of the list 
+	- Set the second entry (index 1) to 17
+	- Add 4,5, and 6 to the end of the list
 	- Remove the first entry from the list
 	- Sort the list
 	- Double the list

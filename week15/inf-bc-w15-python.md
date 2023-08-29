@@ -8,7 +8,7 @@
 
 The activities are designed based on these following references:
 
-- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/) 
+- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
 
 - Free research.
 
@@ -30,7 +30,7 @@ After taking this step, you will be able to:
 	- Plan what you need to learn in order to provide your solutions.
 	- Read proposed book chapter and practice basic provided examples.
 	- Read [this resource](https://www.pythontutorial.net/python-basics/python-recursive-functions/) and run provided examples.
-	- Watch [this video](https://www.youtube.com/watch?v=m1Fjdnj_Mds). 
+	- Watch [this video](https://www.youtube.com/watch?v=m1Fjdnj_Mds).
 
 <hr>
 
@@ -45,7 +45,7 @@ After taking this step, you will be able to:
         The function implements m to the power of n, recursively.
         '''
         return m*rec_power(m,n-1)
-```  
+```
 
 <hr>
 
