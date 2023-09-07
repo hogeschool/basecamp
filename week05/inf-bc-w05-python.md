@@ -186,6 +186,6 @@ Implementing a *correct* program is not easy. Programs always tend to have bugs.
 
 1. Make a brief research about input/output testing with some examples. Make a summary of the techniques with the examples.
 2. Choose one of the problems you have solved for this week.
-	- Certainly there are some normal inputs that your program is supposed to provide a correct output. Think about three different *expected* inputs and see if the output is correct.
+	- Certainly there are some normal inputs for which your program is supposed to provide a correct output. Think about three different *expected* inputs and see if the output is correct.
 	- There are some inputs that are not expected. For example, if your program is supposed to receive an integer between 0 and 10, then a negative integer is not expected. Choose three different unexpected inputs and test your program. If your program crashes, then fix your program such that provides a proper message instead of crashing.
 	- Usually, users unexpectedly make mistakes when trying to give an input. For example, if they try to enter a digit between 0 and 10, mistakenly they press `6;` . Check if your program is resilient for such errors.
