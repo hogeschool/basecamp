@@ -184,9 +184,12 @@ Debugging is an essential process in software development that involves identify
 
 ##### Activity
 
-Use the following code and debugging of your IDE and find the bug(s).
-
-[todo: extend the instructions, inject a bug]
+Use the following code and debugging of your IDE and find the bug(s). Before you start with searching the bug, within your IDE you need to learn:
+- how to add / remove a breakpoint.
+- how to see values of the variables.
+- how to execute one statement at a time.
+- how to execute several statements.
+- how to enter into a function.
 
 ```python
 contacts = []
@@ -200,7 +203,7 @@ def add_contact(name, phone_numbers, email):
     contacts.append(contact)
 
 def search_contacts(keyword):
-    return list(filter(lambda c: keyword.lower() in c['name'].lower(), contacts))
+    return list(filter(lambda c: keyword.lower() in c['email'].lower(), contacts))
 
 def delete_contact(name):
     for contact in contacts:
@@ -210,7 +213,7 @@ def delete_contact(name):
 def update_contact(name, phone_numbers, email):
     for contact in contacts:
         if contact['name'].lower() == name.lower():
-            contact['phone_numbers'] = phone_numbers
+            contact['phone_numbers'] = name
             contact['email'] = email
             break
 
@@ -236,7 +239,7 @@ def main():
     print("Contact deleted successfully.")
 
     update_name = input("Enter the name of the contact to update: ")
-    update_phone_numbers = input("Enter the new phone numbers (separated by commas): ").split(",")
+    update_phone_numbers = input("Enter the new phone numbers (separated by commas): ").split(".")
     update_email = input("Enter the new email address: ")
     update_contact(update_name, update_phone_numbers, update_email)
     print("Contact updated successfully.")
