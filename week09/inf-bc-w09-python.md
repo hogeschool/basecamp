@@ -48,7 +48,7 @@ After taking this step, you will be able to:
 [todo]
 
 ### Supporting Topics
-[todo]
+[todo: heap / stack?]
 
 ### Extra topics
 The follwoing concepts are not part of the main learning path, but can be considered as *optional* learning steps for those who seek more challenges:
