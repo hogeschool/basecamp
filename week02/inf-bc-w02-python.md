@@ -110,11 +110,12 @@ After taking this step, you will be able to:
 
 ### Code Analysis
 
-1. Given the following problem statement, one of the students has submitted a solution. The submitted solution is not working correctly.
+1. Given the following problem statement, one of the students has submitted a solution. The submitted solutions may not work correctly.
 	- Without executing the submitted code, check the implementation, analyze and find the issue(s).
-	- Use the following link to run the code step by step and visualize the execution. [Python Execution Visualizer](https://cscircles.cemc.uwaterloo.ca/visualize)
+	- Use the following link to run the code step by step and visualize the execution. [Python Execution Visualizer](https://cscircles.cemc.uwaterloo.ca/visualize) Note: Before pressing "Visualize Execution" you need to enter your input at "Enter optional text input for ...". 
 	- This step-by-step execution should confirm the issues you have found in the code.
-	- After listing the issues, propose how the code must be fixed. Fix the code and again use step-by-step execution to see that the issues are fixed.
+	- After listing the issues, propose how the code must be fixed. Fix the code and again use step-by-step execution to see that the possible issues are fixed.
+	- Remember: the main goal is to learn how the program is executed step-by-step. Focus on the **goal**.
 
 	**Problem Statement**
    > Develop a program that reads a four-digit integer from the user and displays the sum of the digits in the number.
