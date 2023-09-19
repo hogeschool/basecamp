@@ -76,7 +76,7 @@ After taking this step, you will be able to:
 2. Print all odd numbers between 1 to 100 by using a ```while``` loop.
 3. Print the numbers from 10 to -10 using a ```while``` loop.
 4. Ask the user to input a text. Print each character of the input on a new line using a ```while``` loop.
-5. Ask the user to input a text. Print each character of the input that is the character ```e``` or ```a``` on a new line.
+5. Ask the user to input a text. Print each character of the input that is the character ```e``` or ```a``` on a separate line.
 6. What will be the output of the given code?
 
  ```python
