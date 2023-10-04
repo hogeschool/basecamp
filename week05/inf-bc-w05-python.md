@@ -26,7 +26,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 09** answer and experiment the following questions:
+1. Using **BRef-01: Chapter 09** (read until section *Specify default Parameter Values* for now) answer and experiment the following questions:
    1. What is a function in Python?
    2. What are the main elements of a Python function? Define a simple function that does nothing.
    3. How can a function be used (called)?
