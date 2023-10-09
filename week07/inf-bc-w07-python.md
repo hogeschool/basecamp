@@ -285,63 +285,54 @@ main()
 
 ### Supporting Topics
 
-#### Acceptance Testing
+#### Unit Testing
 
 ##### Introduction
-Acceptance testing is a crucial phase in software development that ensures a system meets the specified requirements and is ready for deployment. It focuses on evaluating the system's functionality, usability, and compliance with business needs. Acceptance testing can be connected to both black box and white box testing methodologies. In black box testing, the system is tested without considering its internal structure, solely based on inputs and expected outputs. White box testing, on the other hand, examines the system's internal logic and code to validate its correctness. By combining these testing approaches, acceptance testing ensures that the software meets user expectations, performs as intended, and adheres to both functional and non-functional requirements.
+Unit testing is like checking individual ingredients before you bake a cake. Imagine you have flour, sugar, eggs, and butter. You want to make sure each ingredient is good on its own before you mix them together. In programming, unit testing means testing small parts, or units, of a software application in isolation to ensure they work as expected. It helps developers catch bugs early, making it easier to fix them before they cause bigger issues in the overall program. Just like you want your cake ingredients to be perfect, unit testing ensures each piece of your code is reliable before it all comes together to create the final product.
+In unit testing, we use programming to test units automatically. In programming, developers write code to automatically test individual parts of their software. 
 
 ##### Activity
-[todo]
 
-- Introduction to unit testing: In-depth will be part of starting of next arch.
+- Read the provided code below.
+- A function named `test()` is responsible for testing functionality of the other functions (i.e. units).
 
 ```python
 contacts = []
 
-def add_contact(name, phone_numbers, email):
+def add_contact(name, phone_number, email):
     contact = {
         'name': name,
-        'phone_numbers': phone_numbers,
+        'phone_number': phone_number,
         'email': email
     }
     contacts.append(contact)
 
-def search_contacts(keyword):
-    return list(filter(lambda c: keyword.lower() in c['name'].lower(), contacts))
+def search_by_name(name):
+    return list(filter(lambda c: name.lower() in c['name'].lower(), contacts))
 
 def delete_contact(name):
     for contact in contacts:
         if contact['name'].lower() == name.lower():
             contacts.remove(contact)
 
-def update_contact(name, phone_numbers, email):
-    for contact in contacts:
-        if contact['name'].lower() == name.lower():
-            contact['phone_numbers'] = phone_numbers
-            contact['email'] = email
-            break
-
 def test():
     # Test adding a contact
-    add_contact("John Doe", ["1234567890", "9876543210"], "john@example.com")
-    assert len(contacts) == 1
+    add_contact('John Doe', '06876543210', 'john@hotemail.com')
+    # Let's check if the function works correctly
+    if len(contacts) != 1 or contacts[0]['name']!='John Doe':
+    	print('Test: ERROR in add_contact()')
 
     # Test searching contacts
-    search_results = search_contacts("John")
-    assert len(search_results) == 1
+    search_results = search_by_name("John")
+    # Let's check if the function works correctly
+    if len(contacts) < 1:
+    	print('Test: ERROR in search_by_name()')
 
     # Test deleting a contact
     delete_contact("John Doe")
-    assert len(contacts) == 0
+    # todo: Implement a test here.
 
-    # Test updating a contact
-    add_contact("Jane Smith", ["5555555555"], "jane@example.com")
-    update_contact("Jane Smith", ["1111111111", "2222222222"], "jane_updated@example.com")
-    updated_contact = search_contacts("Jane")[0]
-    assert updated_contact['email'] == "jane_updated@example.com"
-    assert len(updated_contact['phone_numbers']) == 2
-
-    print("All tests passed successfully.")
+    print("All tests are executed.")
 
 test()
 ```
