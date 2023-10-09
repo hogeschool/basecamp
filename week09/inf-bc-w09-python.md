@@ -49,30 +49,29 @@ After taking this step, you will be able to:
 [todo: a sample code is coppied below just as a raw idea.]
 
 ```python
-
 class Book:
-    def __init__(self,book_title,book_code):
+    def __init__(self, book_title, author_first_name, author_last_name):
         self.title = book_title
-        self.code = book_code
-        
-class Library:
-    def __init__(self,lib_name):
-        self.name = lib_name
-        self.books = []
-    def add_book(self,book):
-        self.books.append(book)
-    def view_books(self):
-        print('Books are:')
-        for b in self.books:
-            print(b.title)
+        self.author_fname = author_first_name
+        self.author_lname = author_last_name
+
+    def view_info(self):
+        print(f"Title: {self.title}")
+        print(f"Author: {self.author_fname} {self.author_lname}")
+
 
 def main():
-    b1 = Book('Harry Potter', 'someone')
-    b2 = Book('Another title', 'another author')
-    lib = Library('HR')
-    lib.add_book(b1)
-    lib.view_books()
-    
+    # Creating Book objects and associating them with authors
+    books = []
+    book_1 = Book('Introducing Python','Bill','Lubanovic')
+    books.append(book_1)
+    book_2 = Book('The Python Workbook','Ben','Stephenson')
+    books.append(book_2)
+
+    # Displaying book information
+    for b in books:
+        b.view_info()
+
 main()
 ```
 
