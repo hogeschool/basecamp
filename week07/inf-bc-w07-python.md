@@ -293,10 +293,15 @@ In unit testing, we use programming to test units automatically. In programming,
 
 ##### Activity
 
-- Read the provided code below.
-- A function named `test()` is responsible for testing functionality of the other functions (i.e. units).
+- Review the provided code snippet below.
+- The function `test()` has been designed to evaluate the functionality of other functions (i.e., units). Examine the code to understand how each function is tested, and consider adding additional test cases to complete the remaining todos.
+- This code currently employs `if` statements and `print` statements for implementing tests. Python offers a more efficient solution through the use of `assert` statements. Conduct a brief research on `assert` statements and study some examples.
+- Within the `test()` function, replace the existing `if` statements with appropriate `assert` statements.
+
+*Note*: The approach demonstrated here represents a fundamental introduction to unit testing. Later, you will experience more in-depth techniques using Python's built-in frameworks and libraries, eliminating the need for developers to integrate testing logic within their programs.
 
 ```python
+
 contacts = []
 
 def add_contact(name, phone_number, email):
