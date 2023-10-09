@@ -45,7 +45,36 @@ After taking this step, you will be able to:
 ## Learning Activities:
 
 ### Code Analysis
-[todo]
+
+[todo: a sample code is coppied below just as a raw idea.]
+
+```python
+
+class Book:
+    def __init__(self,book_title,book_code):
+        self.title = book_title
+        self.code = book_code
+        
+class Library:
+    def __init__(self,lib_name):
+        self.name = lib_name
+        self.books = []
+    def add_book(self,book):
+        self.books.append(book)
+    def view_books(self):
+        print('Books are:')
+        for b in self.books:
+            print(b.title)
+
+def main():
+    b1 = Book('Harry Potter', 'someone')
+    b2 = Book('Another title', 'another author')
+    lib = Library('HR')
+    lib.add_book(b1)
+    lib.view_books()
+    
+main()
+```
 
 ### Supporting Topics
 [todo: heap / stack?]
