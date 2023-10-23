@@ -69,13 +69,13 @@ print(result) #False
 6. Complete the function that checks if the items in a given list are `True` for the given lambda. Return a list containing all `True` values.
 
 ```python
-def check_with_lambda(l, lam):
+def check_with_lambda(lam, l):
     #write the code
 
 x = lambda a : a < 10
 y = [1,6,19,22,7]
 print(check_with_lambda(x, y)) #[1,6,7]
-x = lambda a : a.index(1) == 'b'
+x = lambda a : a[1] == 'b'
 y = ["abc", "bcd", "ube", "cur"]
 print(check_with_lambda(x, y)) #["abc","ube"]
 ```
