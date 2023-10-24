@@ -120,7 +120,7 @@ print(create_list_from_tuples(l))
 #[1,5,4,1,2,8,5,19,0]
 ```
 
-4. Take the list of tuples from the previous exercise. Sort the list descending on the last item of each tuple.
+4. Take the list of tuples from the previous exercise. Sort the list ascending on the last item of each tuple.
 
 5. Create a loop that creates a list containing tuples with the numbers 1 to 10 in pairs of 2. The result should be `[(1,2),(3,4),(5,6),(7,8),(9,10)]`.
 
