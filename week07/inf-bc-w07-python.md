@@ -331,7 +331,7 @@ def test():
     # Test searching contacts
     search_results = search_by_name("John")
     # Let's check if the function works correctly
-    if len(contacts) < 1:
+    if len(search_results) < 1:
     	print('Test: ERROR in search_by_name()')
 
     # Test deleting a contact
