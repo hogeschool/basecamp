@@ -191,7 +191,7 @@ print(create_pass_list(x))
 
 4. Based on the previous exercise. Write a new function that creates a list with failed subjects. Merge the two lists into a new dictionary with the correct keys. Result should be: `{'Pass':["Math", "Chemistry"], 'Fail':["Physics","English"]}`.
 
-5. Write a function that takes the dictionary from the previous exercise and turns each value into his own key:value pair. Sort the dictionary by the key. The result should be: `{'English':"Fail", 'Chemistry': "Pass", 'Physics': "Fail", 'Math':"Pass"} `;
+5. Write a function that takes the dictionary from the previous exercise and turns each value into his own key:value pair. Sort the dictionary by the key. The result should be: `{'Chemistry': 'Pass', 'English': 'Fail', 'Math': 'Pass', 'Physics': 'Fail'}`;
 
 6. Test all the functions from the last few exercises if they still work given a different starting dictionary. If not, try to explain what went wrond and fix it.
 A different dictionary could be:
