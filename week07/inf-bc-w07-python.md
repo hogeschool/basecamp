@@ -172,7 +172,7 @@ def swith_the_values(l):
 
 x = [{'Math':81}, {'Physics':83}, {'Chemistry':87}, {'English': 42}]
 print(swith_the_values(x))
-#[{'Math':42, 'Physics':87, 'Chemistry':83}, {'English': 81}]
+#[{'Math':42}, {'Physics':87}, {'Chemistry':83}, {'English': 81}]
 x = [{'a':'b'}, {'c':'d'}]
 print(swith_the_values(x))
 #[{'a':'d'}, {'c':'b'}]
