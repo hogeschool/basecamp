@@ -1,6 +1,6 @@
 # Python 09: Everything is an Object.
 
-**Introduction**: This document presents learning steps for Python 09. In Python 09, you will get introduced with classes and objects in Python. This will be the fist step in Object Oriented Programming in Python.
+**Introduction**: This document presents learning steps for Python 09. In Python 09, you will get introduced with classes and objects in Python. This will be the first step in Object Oriented Programming in Python.
 
 **Note**: In this phase, it is expected the learner can divide the program into smaller learning steps. The goal and direction of the topics will be provided. The learning must take smaller steps towards the goals such that can implement solutions to the given problems and product(s).
 
@@ -76,7 +76,7 @@ main()
 ```
 
 ### Supporting Topics
-[todo: heap / stack?]
+[Encapsulation in OOP with examples in Python]
 
 ### Extra topics
 The follwoing concepts are not part of the main learning path, but can be considered as *optional* learning steps for those who seek more challenges:

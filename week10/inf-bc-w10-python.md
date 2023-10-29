@@ -47,4 +47,9 @@ After taking this step, you will be able to:
 [todo]
 
 ### Supporting Topics
-[todo: encoding / decoding file system]
+
+**Introduction**: In Python, exceptions are unexpected events that can happen during the execution of a program, disrupting the normal flow of code. These can include errors like attempting to access a non-existent file. To handle these exceptions and prevent the program from crashing, Python provides a mechanism called the `try-except` block. The code that might raise an exception is placed inside the `try` block. If an exception occurs within the `try` block, Python immediately jumps to the corresponding `except` block, where the specific exception can be caught and handled gracefully. This allows developers to predict potential errors and define appropriate responses, ensuring the program can continue running smoothly even when unexpected issues arise. Using `try-except` blocks enhances the robustness of Python programs by providing a way to manage errors and prevent them from causing the entire program to terminate abruptly.
+- Perform a a research about exception handling in Python.
+- Implement a simple example with an intentional error, like trying to open a file with a wrong name. Run the program and see what will be the result of the execution.
+- Improve your program by adding `tr-except` block.
+- Raised exceptions are object instances. They expose methods to detect their types and messages. [todo: improve this activity]
