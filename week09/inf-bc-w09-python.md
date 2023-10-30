@@ -46,31 +46,48 @@ After taking this step, you will be able to:
 
 ### Code Analysis
 
-[todo: a sample code is coppied below just as a raw idea.]
+**Problem**: In a programming assignment, students are asked to implement a simple Python program where libraries can store books. Below, you can find a sample solution provided by one of the students.
+- Without executing the code, read the code and try to predict what will be printed at the end.
+- Run the code in your IDE. Does it print what you had predicted? If not, why?
+- Debug the code carefully and fix the bug, if you find any. 
+
 
 ```python
 class Book:
-    def __init__(self, book_title, author_first_name, author_last_name):
-        self.title = book_title
-        self.author_fname = author_first_name
-        self.author_lname = author_last_name
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+    def __repr__(self) -> str:
+        return f'Title: {self.title} , Author: {self.author}'
 
-    def view_info(self):
-        print(f"Title: {self.title}")
-        print(f"Author: {self.author_fname} {self.author_lname}")
-
+class Library:
+    def __init__(self, name):
+        self.name = name
+        self.books = []
+    def add_books(self, books):
+        self.books = books
+    def display_books(self):
+        print(f"Books in {self.name} Library:")
+        for book in self.books:
+            print(book)
 
 def main():
-    # Creating Book objects and associating them with authors
-    books = []
-    book_1 = Book('Introducing Python','Bill','Lubanovic')
-    books.append(book_1)
-    book_2 = Book('The Python Workbook','Ben','Stephenson')
-    books.append(book_2)
-
-    # Displaying book information
-    for b in books:
-        b.view_info()
+    # Create Books
+    book1 = Book('Introducing Python','Bill Lubanovic')
+    book2 = Book('The Python Workbook','Ben Stephenson')
+    book3 = Book('Learn Python Programming','Fabrizio Romano')
+    book4 = Book('Fleunt Python','Luciano Ramalho')
+    # Create libraries
+    univ_lib = Library('University')
+    city_lib = Library('City')
+    # Add books to the libraries
+    univ_lib.add_books([book1,book4])
+    city_lib.add_books([book1,book3])
+    univ_lib.add_books([book1,book2])
+    city_lib.add_books([book3,book4])  
+    # Display books in libraries
+    univ_lib.display_books()
+    city_lib.display_books()
 
 main()
 ```
