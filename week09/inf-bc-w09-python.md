@@ -93,16 +93,22 @@ main()
 ```
 
 ### Supporting Topics
-[Encapsulation in OOP with examples in Python]
 
-### Extra topics
+**Introduction**: In this week, you have been introduced to objects and classes in Python. This is the very first step in Object-Oriented Programming. In general, the four pillars of Object-Oriented Programming are: Encapsulation, Inheritance, Polymorphism, and Abstraction. In this activity, you will carry out a small research about **Encapsulation**.
+
+- Conduct a small research about Encapsulation and try to discuss the concept within your learning team.
+- Implement a Python program where basic information of cars (model, price, year, mileage) can be processed by some car agencies. Keep the functionalities simple.
+- Try to explain encapsulation within your own implementation. If you don't see encapsulation within your solution, refactor your code.
+- Share your findings and pros and cons of each solution with your teacher / classmates.
+
+
+
+### Extra topics (Optional)
 The follwoing concepts are not part of the main learning path, but can be considered as *optional* learning steps for those who seek more challenges:
 
 - Inheritance
 - Polymorphysm
+- Abstraction
 - Class methods
 - Static methods
-- Duck Typing
-- Magic methods
-- Aggregation and Composition
 - Dataclasses
