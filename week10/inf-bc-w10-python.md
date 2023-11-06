@@ -44,7 +44,42 @@ After taking this step, you will be able to:
 ## Learning Activities:
 
 ### Code Analysis
-[todo]
+
+[todo: description to be provided]
+
+```python
+class TemperatureDataAnalyzer:
+    def __init__(self, file_path):
+        self.file_path = file_path
+        self.temperature_data = []
+    # Method to open the file and load lines as an attribute
+    def load_data(self):
+        with open(self.file_path, 'r') as file:
+            self.temperature_data = [line.strip().split() for line in file]
+    # Method to perform the analysis and construct the list
+    def construct_temperature_list(self):
+        temperature_list = []
+        for line in self.temperature_data:
+            month, day, year = map(int, line[:-1])
+            temperature_f = float(line[len(line)-1])
+            if year not in [item[0] for item in temperature_list]:
+                temperature_list.append((year, {}))
+            print(temperature_list[-1])
+            if month not in temperature_list[-1][1]:
+                temperature_list[-1][1][month] = 0.0
+            temperature_list[-1][1][month] = max(temperature_f , temperature_list[-1][1][month]) 
+        return temperature_list
+
+def main():
+    file_path = 'temps.txt'  
+    analyzer = TemperatureDataAnalyzer(file_path)
+    analyzer.load_data()
+    temperature_list = analyzer.construct_temperature_list()
+    print(temperature_list)
+
+if __name__ == '__main__':
+    main()
+```
 
 ### Supporting Topics
 
