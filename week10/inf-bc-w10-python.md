@@ -45,7 +45,7 @@ After taking this step, you will be able to:
 
 ### Code Analysis
 
-There is a code provided below by a programmer. Looking to the constructor of the class, it seems the code starts by reading data from a file. Unfortunately, we don't have access to the file, but we can analyze the code and understand how the content of the file is structured.
+There is a code provided below by a programmer. Looking to the initializer of the class, it seems the code starts by reading data from a file. Unfortunately, we don't have access to the file, but we can analyze the code and understand how the content of the file is structured.
 
 - Read the body of `load_data(self)`. Try to guess how the data columns are structured.
 - Reading the method `load_data(self)` we may understand the structure of the data columns and data types, but still we don't know the meaning of data values. This is something we can extract from the method `construct_temprature_list(self)`. Read this method carefully and try to explain what will be result of this method? 
