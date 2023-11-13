@@ -98,11 +98,3 @@ print(division(10,0)) # This must not raise an error
 ```
 
 <hr>
-
-## Learning Activities:
-
-### Code Analysis
-[todo]
-
-### Supporting Topics
-[todo]

@@ -48,11 +48,3 @@ After taking this step, you will be able to:
 ```
 
 <hr>
-
-## Learning Activities:
-
-### Code Analysis
-[todo]
-
-### Supporting Topics
-[todo]
