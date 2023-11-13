@@ -126,3 +126,5 @@ Example: A simple **Students** table:
 **Activity**:
 - Provide a JSON file that contains the information provided in the example table above.
 - As can be seen, a JSON file can also provide the same structure and data content as a table in a relational database. Conduct a small research and justify the benefits of (relational) databases over (structured) files.
+
+**Note**: This is just a short prepatory activity about databases. More in-depth learning activity will be provided in the coming weeks.
