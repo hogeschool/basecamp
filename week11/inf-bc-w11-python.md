@@ -47,7 +47,82 @@ After taking this step, you will be able to:
 ## Learning Activities:
 
 ### Code Analysis
-[todo]
+
+There is a json file containing menu items of a resturant. An example of the content is given below.
+
+```python
+{
+    "menu": {
+      "breakfast": {
+        "items": [
+          {"name": "Pancakes", "price": 8.99},
+          {"name": "Omelette", "price": 9.99},
+          {"name": "French Toast", "price": 7.49}
+        ]
+      },
+      "lunch": {
+        "items": [
+          {"name": "Caesar Salad", "price": 10.99},
+          {"name": "Chicken Wrap", "price": 12.49},
+          {"name": "Vegetarian Pizza", "price": 14.99}
+        ]
+      },
+      "dinner": {
+        "items": [
+          {"name": "Grilled Salmon", "price": 18.99},
+          {"name": "Steak with Potatoes", "price": 22.99},
+          {"name": "Pasta Alfredo", "price": 15.99}
+        ]
+      }
+    }
+}
+```
+
+Students are asked to implement a program that inquires about the mealtime and prints items from the menu corresponding to the provided input. One of the solutions is provided below. The program raises an exception. Read the program, analyze the structure of the JSON file and help the student to solve the issue.
+
+```python
+import json
+
+class MenuManager:
+    def __init__(self, file_path):
+        self.menu_data = self.load_menu(file_path)
+
+    def load_menu(self, file_path):
+        with open(file_path, 'r') as file:
+            menu_data = json.load(file)
+        return menu_data
+
+    def display_meal_items(self, meal_time):
+        try:
+            items = self.menu_data["menu"]["items"]
+            print(f"\n{meal_time.capitalize()} Menu:")
+            for item in items:
+                print(f"{item['name']}: ${item['price']:.2f}")
+        except KeyError:
+            print(f"\nNo menu found for {meal_time.capitalize()}.")
+
+if __name__ == "__main__":
+    file_path = "menu_data.json" 
+    menu_manager = MenuManager(file_path)
+
+    user_input = input("Enter the meal time (breakfast, lunch, or dinner): ")
+    menu_manager.display_meal_items(user_input)
+```
 
 ### Supporting Topics
-[todo: database]
+
+**Introduction**: Relational Databases:
+
+In general, a database is a structured and organized collection of data that is easily accessible, manageable, and updateable. Databases are designed to store and retrieve information efficiently. They provide a systematic way to organize and manage data, allowing users to interact with and manipulate information. A relational database is a type of database that stores and organizes data in tables. In a relational databases, data is structured in tables, where each table represents a specific entity or concept, and relationships between tables are defined to establish connections between different pieces of data.
+ 
+Example: A simple **Students** table:
+
+| StudentID | FirstName | LastName | Age | Grade |
+|-----------|-----------|----------|-----|-------|
+| 1         | John      | Doe      | 20  | A     |
+| 2         | Jane      | Smith    | 22  | C     |
+| 3         | Mike      | Johnson  | 21  | B     |
+
+**Activity**:
+- Provide a JSON file that contains the information provided in the example table above.
+- As can be seen, a JSON file can also provide the same structure and data content as a table in a relational database. Conduct a small research and justify the benefits of (relational) databases over (structured) files.
