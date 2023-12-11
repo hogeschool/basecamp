@@ -83,10 +83,11 @@ Complete the following template such that it decorates our division function wit
 
 ```python
 def division_fixed(func):
-    def check_params(a,b):
-        #todo: complete the code here
+	def check_params(a,b):
+		#todo: complete the code here
+		pass
 
-        return check_params
+	return check_params
 
 
 @division_fixed
