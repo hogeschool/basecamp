@@ -108,6 +108,8 @@ This Arch is constructed in the following weeks:
 2. Brian Heinold; **"A Practical Introduction to Python Programming"** [Available Online, Check here](https://www.brianheinold.net/python/python_book.html).
 	- Solutions to the exercises are [available here](https://github.com/henrytirla/Practical-Introduction-to-python).
 3. Ben Stephenson; **"The Python Workbook: A Brief Introduction with Exercises and Solutions"** [Check here](https://link.springer.com/book/10.1007/978-3-319-14240-1)
+4. Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers; **How to Think Like a Computer Scientist**[Check here](https://openbookproject.net/thinkcs/python/english3e/)
+5. **CS Principles: Big Ideas in Programming** [Check here](https://www.openbookproject.net/books/StudentCSP/)
 
 
 ### Skills:
