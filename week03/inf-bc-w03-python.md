@@ -191,37 +191,3 @@ print(count)
  for c in sentence:
  	print(c)
 ```
-
-### Supporting Topics
-
-#### Data Formats
-
-##### Introduction
-Data formats are essential in the world of computing, providing a standardized way to represent and manipulate information. One of the most fundamental data formats is binary, which uses a base-2 numbering system composed of only two digits: 0 and 1. Binary is the foundation of all digital systems, with each digit representing the state of an electronic switch. Hexadecimal (hex) is another commonly used data format, employing a base-16 numbering system. It extends beyond the limited set of digits in decimal, introducing the additional symbols A-F to 0-9. Hexadecimal is frequently used to represent and display binary data in a more compact and human-readable format. On the other hand, decimal is a base-10 numbering system that most people are familiar with, utilizing ten digits 0-9. Decimal is widely used in everyday life and is the standard format for representing numerical values. Understanding these data formats is crucial for effectively working with data in various computing applications and systems.
-
-##### Task
-1. Perform a free (re-)search and explore the answers for the following questions:
-	- Digits in decimal numbers are 0-9. What are the digits in hexadecimal format? What are the digits in binary format?
-	- Convert (manually) the following decimal numbers to hexadecimal and binary: 8, 10, 15, 21, 32, 64, 256, 500, 512, 1000.
-	- How does Python represent these data formats? How can you use Python to convert these data formats to each other?
-
-2. Use Python to:
-	- Convert the decimal number 45 into its binary representation.
-	- Convert the binary number 1010101 into decimal form.
-	- Add the binary numbers 10111 and 1101 and express the result in binary.
-	- Convert the decimal number 255 into its hexadecimal representation.
-	- Convert the hexadecimal number 2A into decimal form.
-	- Add the hexadecimal numbers C4 and 3A and express the result in hexadecimal.
-	- Convert the binary number 1101 into decimal form.
-	- Convert the hexadecimal number F0 into decimal form.
-	- Add the decimal numbers 123 and 456.
-	- Convert the decimal number 157 into binary and then into hexadecimal.
-	- Convert the binary number 11101101 into decimal and then into hexadecimal.
-	- Convert the hexadecimal number AB4 into decimal and then into binary.
-
-3. Real-life Applications:
-	- Research and identify a real-world example where binary data is used extensively.
-	- Investigate how hexadecimal is used in computer memory addressing.
-	- Explore how decimal data formats are used in financial calculations or accounting systems.
-
-

@@ -146,23 +146,3 @@ After taking this step, you will be able to:
       text = text + numstr[i]
    print(text)
    ```
-
-<br>
-
-### Supporting Topics
-
-1. Perform a free (re-)search and explore answers for the following questions:
-   1. What is an Operating System and why do we need it?
-   2. Consider your own computer and OS (Operating System). How do you interact with the OS: Graphical User Interface (GUI) or commands?
-
-2. Perform a free (re-)search and carry on the following tasks:
-	1. Open a terminal / a command prompt. What is the current folder?
-	2. How can you make a list of the contents of the current folder?
-	3. Using the command line, create a folder and name it `workspace`.
-	4. Use command prompts and change your current folder such that you are in the folder `workspace`.
-	5. Create a folder `basecamp` and within `basecamp` create `week01`.
-	6. You have used an online editor to implement your solutions for the given problems of this week. Save one of the solutions within `../basecamp/week01/`. Name the file properly. Make sure that the extension of the file is `.py`.
-	7. Is it possible to execute the downloaded Python program using command line? Try it. *Note: You may receive an error because Python is not installed on your machine. In this case, you can try this next week.*
-	8. Use the command line to create an empty Python file with a proper name.
-	9. Use the command line to create another folder named `week02` within `./basecamp/`. Copy (using the command line) your empty Python file within `week02`.
-	10. Within the folder of `week01` use the command line and create a file named `summary.txt`. Open the file (using commands), write down a summary of commands you have learned and used so far and save the file.
