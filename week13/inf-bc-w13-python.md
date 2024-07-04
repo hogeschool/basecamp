@@ -1,4 +1,4 @@
-# Python 13: Databases.
+# Python 13: Databases - part 1.
 
 **Introduction**: This document presents learning steps for Python 13. In Python 13, you will learn the basics of implementing Python programs that can interact with databases.
 
@@ -20,7 +20,7 @@ The activities are designed based on these following references:
 ```
 After taking this step, you will be able to:
 	1. understand the concept of databases.
-	2. understand and implement Python programs making basic queries in SQLite: CREATE, INSERT, SELECT x,y,z FROM t WHERE c.
+	2. understand and implement Python programs making basic queries in SQLite: SELECT x,y,z FROM t WHERE c.
 ```
 #### What to learn?
 
