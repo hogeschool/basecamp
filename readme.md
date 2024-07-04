@@ -94,9 +94,9 @@ As a result of participating in **BaseCamp: Arch Four**, students will be able t
 
 This Arch is constructed in the following weeks:
 
-- [**Week13: Data Base**](./week13/inf-bc-w13-python.md) 
-- [**Week14: Functions: as a Type**](./week14/inf-bc-w14-python.md) 
-- [**Week15: Functions: Recursion**](./week15/inf-bc-w15-python.md) 
+- [**Week13: Database - basics**](./week13/inf-bc-w13-python.md) 
+- [**Week14: Database - extended**](./week14/inf-bc-w14-python.md) 
+- [**Week15: Functions: Higher Order & Recursion**](./week15/inf-bc-w15-python.md) 
 - **Week16: Review and Challenge**
 
 <br><br>
