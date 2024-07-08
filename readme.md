@@ -12,7 +12,8 @@ This collection covers a learning path for Basics of Programming. It covers acit
 	- simple user inputs and print formats.
 	- boolean expressions and conditional statements: if-else statements
 	- loops: while and for.
-	- basic string processing: length, split, join, replace, join.
+	- string processing: length, split, join, replace, join.
+	- basic of functions: defining and calling functions, return of a function, functions with arguments.
 
 As a result of participating in **BaseCamp:Arch One**, students will be able to:
 
@@ -24,7 +25,7 @@ As a result of participating in **BaseCamp:Arch One**, students will be able to:
 This Arch is constructed in the following weeks:
 
 - [**Week01: Linear Programs**](./week01/inf-bc-w01-python.md) 
-- [**Week02: Branching Programs**](./week02/inf-bc-w02-python.md) 
+- [**Week02: Branching Programs, Functions**](./week02/inf-bc-w02-python.md) 
 - [**Week03: Iterative Programs**](./week03/inf-bc-w03-python.md) 
 - **Week04: Review and Challenge**
 
@@ -35,7 +36,7 @@ This Arch is constructed in the following weeks:
 
 **Programming Elements**: In **Arch Two** the following programming elements are covered:
 
-	- functions: function definition, calling functions, return of a function, functions with arguments, positional arguments, keyword arguments, parameters default values, docstrings, anonymous functions.
+	- functions (more): positional arguments, keyword arguments, parameters default values, docstrings, anonymous functions.
 	- collective structures: lists with basic operations (defining, offset, slicing, adding new element, modifying an element, list comprehension), tuples with basic operations (creating, unpacking, modifying, combining two tuples, iterating over a tuple), dictionaries with basic operations (creating, adding and modifying items,  extracting value(s), extracting key(s), deleting, pop and clear, iteration over dictionaries), sets with basic operations (creating sets, adding and removing elelemnts, membership operator, iteration over a set, basic operations between sets, i.e. intersection, union, difference and subset),  copy(), deepcopy(), nested structures.
 
 As a result of participating in **BaseCamp: Arch Two**, students will be able to:
