@@ -112,27 +112,30 @@ for word in words:
 
 ```
 After taking this step, you will be able to:
-	1. understand the general concepts of computer hardware: Hard disk, RAM, CPU, IO.
-	2. understand value, variable, primitive data types (int, str, float, boolean).
-	3. understand the concept of mutability (some data types are mutable and some are not).
-	4. implement Python programs containing: variables, assigning values, print.
+	1. understand value, variable, primitive data types (int, str, float, boolean).
+	2. understand the concept of mutability (some data types are mutable and some are not).
+	3. implement Python programs containing: variables, assigning values, print.
+	4. interpret and implement basic operations of strings: concatenation (combining), duplicating, scanning and slicing.
 ```
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 02** explore the answers for the following questions:
-
+1. Using **BRef-01: Chapter 02** explore the answers for the following questions: 
 *Note: There are some concepts (like objects, classes, references) that students may not be able to grasp completely. The main idea is to try as much as possible. They will be more clear later when they learn Object Oriented programming in Python.*
-
    1. What is a value? What is a variable?
    2. What is a *type*? Provide five examples.
-   3. How can you define a variable in Python?
-   4. Define some variables in Python that are not permitted in Python. Experiment with breaking various rules in defining variables. Analyze the error message.
+   3. How can you define a variable in Python? 
+   4. Define some variables in Python that are not permitted in Python. Experiment with breaking various rules in defining variables. Analyse the error message.
    5. How can you assign a value to a variable? How can we express that two items are equal?
    6. How can you identify the type of a value / variable?
-2. Perform a free (re)-search and answer the following questions:
-   1. What are the character and string types in Python? Make examples.
-   2. You have learned how to print something as an output of your program. How can you read something as input? What is the function? What is the type?
+   
+4. Using **BRef-01: Chapter 05** discuss and experiment the following questions:
+   1. What are the character and text string types in Python? Make examples. 
+   2. How can you combine several strings? Implement an example.
+   3. Can you multiply a number with a string? What is the result? Implement an example.
+   4. How can you get character 5 of a given string? How can you get the first character?
+   5. How can you get a substring from a given string?
+   6. You have learned how to print something as an output of your program. How can you read something as input? What is the *function*? What is the type?
 
 
 #### Exercises:
@@ -146,7 +149,7 @@ z = 1
 y = z
 z = 12
 y = 13
-x = y
+x = y 
 y = x
 z = 7
 print(x)
@@ -156,10 +159,12 @@ print(z)
 2. A phone number is a number. Yet we would want to save it as a text. Can you think of a reason why?
 3. The number in the address of your house, for example Kerkweg **8**, is a number. Yet we would want to save it as a text. Can you think of a reason why?
 4. What is an example from a number we use in the real world that we do want to save as a number in Python, not as a text.
-5. User input in Python is always considered a text, even if we just enter numbers; why would it act like this?
+5. User input in Python is always considered a text, even if we just enter numbers, why would it act like this?
 6. Define a variable called zipcode (postcode) and give it the value of your own zipcode. Print it using print().
-7. Define a variable called favorite_food, give it the value "Pizza". Print it. Change the value to "Roti". Print it.
-8. Finish all the exercises listed in **BRef-01-Chapter 02: Things to Do**.
+7. Define a variable called favorite food, give it the value "Pizza". Print it. Change the value to "Roti". Print it.  
+8. Write down the complete alphabet in a variable. Split it halfway over two different variables. Join them back together in the wrong order and print it. 
+9. Explain in your own words with a ```f``` style string is?
+10. Finish all the exercises listed in **BRef-01-Chapter 02: Things to Do** and Practice the exercises listed in **BRef-01-Chapter 05: Things to Do**.
 
 <hr>
 
