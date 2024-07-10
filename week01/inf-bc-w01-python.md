@@ -134,7 +134,7 @@ After taking this step, you will be able to:
    2. How can you combine several strings? Implement an example.
    3. Can you multiply a number with a string? What is the result? Implement an example.
    4. How can you get character 5 of a given string? How can you get the first character?
-   5. How can you get a substring from a given string?
+   5. How can you get a substring from a given string? For example, the postcodes in The Netherlands consist of 4 digits followed by 2 letters. How can you extract the letters from a given postcode?
    6. You have learned how to print something as an output of your program. How can you read something as input? What is the *function*? What is the type?
 
 
