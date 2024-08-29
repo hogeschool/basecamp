@@ -1,6 +1,6 @@
 # Python 01: Linear Programs.
 
-**Introduction**: This document presents learning steps for Python 01. In Python 01, you will learn the first elements of Python to build your first interactive linear program. We define a linear program as a flow of sequential instructions without branching and loops. At the end of Python 01, you will be able to implement a program where a user can enter simple input(s) and the program calculates and prints the results as its output.
+**Introduction**: This document presents learning steps for Python 01. In Python 01, you will learn the elements of Python to build your first interactive linear program. We define a linear program as a flow of sequential instructions without branching and loops. At the end of Python 01, you will be able to implement a program where a user can enter simple inputs and the program calculates and prints the results as its output.
 
 **Note:** In Python 01, exercises and examples can be executed using:
 
@@ -32,11 +32,11 @@ After taking this step, you will be able to:
 #### What to Learn?
 
 1. Use **BRef-01: Chapter 01** as a reference and discuss the following questions:
-   1. What is a general definition of a program? Provide some (none-computer) examples.
+   1. What is a general definition of a program? Provide some (non-computer) examples.
    2. What are the main elements of a program?
    3. **First Taste of Python**: Read section *Little Programs* and analyze the provided examples.
-   4. Consider the following Python program and guess what each program does. Analyze and discuss inputs, behaviour and expected outputs.
-   		- *Note*: Certainly there might be some lines that will be impossible to understand fully. The goal is to evaluate your first taste of Python programs and check how intuitive they are. You will be learning all details in later stages.
+   4. Consider the following Python programs and guess what each program does. Analyze and discuss inputs, behaviour and expected outputs.
+   		- *Note*: Certainly there are lines that you won't understand. The goal is to evaluate your first taste of Python programs and check how intuitive they are. You will be learning all details in later stages.
 
 ```python
 #Code 01:
@@ -56,7 +56,7 @@ print("This is your list of words:", words)
 	- Write down syntactical elements that are understandable for you.
 	- Specify statements that you know (or you can guess) the results of the their execution.
 	- Share your lists within your learning group.
-	- Discuss what will be the result of the program (without execution).
+	- Discuss what will be the result / output of the program (without execution).
 
 *Note*: It is not expected that students understand all the elements of these programs. The main goal is to get a taste of Python programs and discuss about them. *Trust your intuition*.
 
@@ -78,7 +78,7 @@ if num < 0:
    print("Enter a positive number")
 else:
    sum = 0
-   while(num > 0):
+   while num > 0:
        sum += num
        num -= 1
    print("Result is", sum)
@@ -112,9 +112,9 @@ for word in words:
 
 ```
 After taking this step, you will be able to:
-	1. understand value, variable, primitive data types (int, str, float, boolean).
+	1. understand values, variables, primitive data types (int, str, float, boolean).
 	2. understand the concept of mutability (some data types are mutable and some are not).
-	3. implement Python programs containing: variables, assigning values, print.
+	3. implement Python programs containing variables, assigning values, print.
 	4. interpret and implement basic operations of strings: concatenation (combining), duplicating, scanning and slicing.
 ```
 
@@ -133,8 +133,8 @@ After taking this step, you will be able to:
    1. What are the character and text string types in Python? Make examples. 
    2. How can you combine several strings? Implement an example.
    3. Can you multiply a number with a string? What is the result? Implement an example.
-   4. How can you get character 5 of a given string? How can you get the first character?
-   5. How can you get a substring from a given string? For example, the postcodes in The Netherlands consist of 4 digits followed by 2 letters. How can you extract the letters from a given postcode?
+   4. How can you get the 5th character of a given string? How can you get the first character?
+   5. How can you get a substring from a given string? For example, the zipcodes (postcodes) in The Netherlands consist of 4 digits followed by 2 letters. How can you extract the letters from a given zipcode?
    6. You have learned how to print something as an output of your program. How can you read something as input? What is the *function*? What is the type?
 
 
@@ -158,13 +158,13 @@ print(z)
 ```
 2. A phone number is a number. Yet we would want to save it as a text. Can you think of a reason why?
 3. The number in the address of your house, for example Kerkweg **8**, is a number. Yet we would want to save it as a text. Can you think of a reason why?
-4. What is an example from a number we use in the real world that we do want to save as a number in Python, not as a text.
+4. What is an example from a number we use in the real world that we want to save as a number in Python, not as a text.
 5. User input in Python is always considered a text, even if we just enter numbers, why would it act like this?
 6. Define a variable called zipcode (postcode) and give it the value of your own zipcode. Print it using print().
-7. Define a variable called favorite food, give it the value "Pizza". Print it. Change the value to "Roti". Print it. 
+7. Define a variable called favorite_food, give it the value "Pizza". Print it. Change the value to "Roti". Print it. 
 8. Define a variable that stores your school email address. Extract your student number from this email address. 
 9. Write down the complete alphabet in a variable. Split it halfway over two different variables. Join them back together in the wrong order and print it. 
-10. Explain in your own words with a ```f``` style string is?
+10. Explain in your own words with an ```f``` string is?
 11. Finish all the exercises listed in **BRef-01-Chapter 02: Things to Do** and Practice the exercises listed in **BRef-01-Chapter 05: Things to Do**.
 
 <hr>
@@ -192,7 +192,7 @@ After taking this step, you will be able to:
 2. Do the same for subtraction, division and multiplication.
 3. Get input from the user. Save it as a number. Print it.
 4. Try to divide something by zero. Describe the error you get.
-5. Create two variables with text in them. Print them togeter at once, using only print statement.
+5. Create two variables with text in them. Print them togeter at once, using only 1 print statement.
 6. Python uses PEMDAS. What is that and is it different from the way you learned it?
 7. Create one calculation using at least four parentheses, three multiplications and four subtractions. Print the result.
 8. Finish all the exercises listed in **BRef-01-Chapter 03: Things to Do**.
@@ -236,7 +236,7 @@ dig = num % 10
 print(dig)
 ```
 
-2. Implementing a solution for a given problem is challenging for a beginner programmer. It is helpful to have a guideline with some steps. Check [this guideline](./checklist_metacog.pdf) and apply it the Problem 5 of this week. *Hint: A template with some examples provided [here](./template.py)*
+2. Implementing a solution for a given problem is challenging for a starting programmer. It is helpful to have a guideline with some steps. Check [this guideline](./checklist_metacog.pdf) and apply it the Problem 5 of this week. *Hint: A template with some examples provided [here](./template.py)*
 
 3.  One of the students has tried to apply the guideline for a given problem. But, the code does not produce the expected results. Check the code and without executing the code try to find the mistake.
 
