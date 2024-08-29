@@ -95,7 +95,7 @@ After taking this step, you will be able to:
 
 #### Exercises:
 
-*Note*: In the following exercises you can decide yourself what should be the name of function in your solution. Check [PEP8 Function and Variable Names](https://peps.python.org/pep-0008/#function-and-variable-names).
+*Note*: In the following exercises you can decide yourself what should be the name of function in your solution. Check [PEP8 Function and Variable Names](https://peps.python.org/pep-0008/#function-and-variable-names) for guidelines.
 
 1. Explain in your own words the difference between `arguments` and `parameters`.
 2. Create a function that just prints the word `hello`. Call the function and run your program. Where the function is *defined*? Where is it *called*?
