@@ -117,7 +117,7 @@ After taking this step, you will be able to:
 
 ### Code Analysis
 
-1. Given the following problem statement, one of the students has submitted a solution. The submitted solution may not work correctly.
+1. Given the following problem statement, one of the students has submitted two solutions. The submitted solutions may not work correctly.
 	- Without executing the submitted code, check the implementation, analyze and find the issue(s).
 	- Use the following link to run the code step by step and visualize the execution. [Python Execution Visualizer](https://cscircles.cemc.uwaterloo.ca/visualize) Note: Before pressing "Visualize Execution" you need to enter your input at "Enter optional text input for ...". 
 	- This step-by-step execution should confirm the issues you have found in the code.
