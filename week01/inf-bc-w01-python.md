@@ -197,12 +197,8 @@ After taking this step, you will be able to:
 7. Create one calculation using at least four parentheses, three multiplications and four subtractions. Print the result.
 8. Finish all the exercises listed in **BRef-01-Chapter 03: Things to Do**.
 
-<hr>
 
-
-## Learning Activities:
-
-### Code Analysis
+## Code Analysis
 
 
 1. Analyze the programming solutions given below and write down in one sentence: what do they do? What problems do they try to solve?

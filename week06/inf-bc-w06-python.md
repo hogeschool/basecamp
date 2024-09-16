@@ -132,11 +132,7 @@ After taking this step, you will be able to:
 
 5. Design two exercises of your own. They should improve understanding topics of this step.
 
-<hr>
-
-## Learning Activities:
-
-### Code Analysis
+## Code Analysis
 1. Analyze the given code below without executing it. What will be the result of the program?
 
  ```python

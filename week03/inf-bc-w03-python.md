@@ -137,12 +137,7 @@ After taking this step, you will be able to:
 11. Practice the exercises listed in **BRef-01-Chapter 06: Things to Do**:
 	- **6.1**, **6.2** and **6.3**.
 
-
-<hr>
-
-## Learning Activities:
-
-### Code Analysis
+## Code Analysis
 
 1. For each of the following given codes:
 	- Without executing the code try to read the code and write down what will be the output.

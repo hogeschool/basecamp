@@ -40,11 +40,7 @@ After taking this step, you will be able to:
 
 1. Design at least ten different exercises of your own. They should improve understanding topics of this step. Share your exercises with your learning community and practice.
 
-<hr>
-
-## Learning Activities:
-
-### Code Analysis
+## Code Analysis
 
 **Problem**: In a programming assignment, students are asked to implement a simple Python program where libraries can store books. Below, you can find a sample solution provided by one of the students.
 - Without executing the code, read the code and try to predict what will be printed at the end.

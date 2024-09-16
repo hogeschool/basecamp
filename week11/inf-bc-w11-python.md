@@ -44,9 +44,7 @@ After taking this step, you will be able to:
 
 <hr>
 
-## Learning Activities:
-
-### Code Analysis
+## Code Analysis
 
 There is a json file containing menu items of a resturant. An example of the content is given below.
 

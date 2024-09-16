@@ -110,12 +110,7 @@ After taking this step, you will be able to:
 	- It is important to learn how to create a new Python program, how to configure interpreter and how to run the program. Where do you see the results?
 
 
- <hr>
-
-
-## Learning Activities:
-
-### Code Analysis
+## Code Analysis
 
 1. Given the following problem statement, one of the students has submitted two solutions. The submitted solutions may not work correctly.
 	- Without executing the submitted code, check the implementation, analyze and find the issue(s).

@@ -39,11 +39,7 @@ After taking this step, you will be able to:
 1. Design at least ten different exercises of your own. They should improve understanding topics of this step. Share your exercises with your learning community and practice.
 
 
-<hr>
-
-## Learning Activities:
-
-### Code Analysis
+## Code Analysis
 
 There is a code provided below by a programmer. Looking to the initializer of the class, it seems the code starts by reading data from a file. Unfortunately, we don't have access to the file, but we can analyze the code and understand how the content of the file is structured.
 

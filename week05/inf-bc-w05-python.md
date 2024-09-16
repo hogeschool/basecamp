@@ -133,11 +133,7 @@ After taking this step, you will be able to:
 7. Write a program that takes any two lists L and M of the same size and adds their elements together to form a new list N whose elements are sums of the corresponding elements in L and M. For instance, if ```L=[3,1,4]``` and ```M=[1,5,9]```, then N should equal ```[4,6,13]```.
 8. Design two exercises of your own. They should improve understanding topics of this step.
 
-<hr>
-
-## Learning Activities:
-
-### Code Analysis
+## Code Analysis
 1. Analyze the two given codes below without executing them. What will be the result of the programs?
 
 ```python
