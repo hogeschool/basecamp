@@ -67,7 +67,7 @@ print(check_with_lambda(x, y)) #["abc","ube"]
 ```
 
 3. There is a list of names given below. 
-	1. Using `filter(...)`, write a program that provides a list containing the name with more than 5 characters. 
+	1. Using `filter(...)`, write a program that provides a list containing the name(s) with more than 5 characters. 
 	2. Using map(...), implement a program that converts all the names in the list to uppercase.
 
 ```python
