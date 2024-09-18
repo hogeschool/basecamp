@@ -1,6 +1,7 @@
 # Python 06: Functions, Dictionaries and Sets.
 
-**Introduction**: This document presents learning steps for Python 06. In Python 06, you will learn dictionaries to collect keys and coresponding values. Moreover, you will learn more features of functions.
+**Introduction**: This document presents learning steps for Python 06. In Python 06, you will learn dictionaries to collect keys and coresponding values. Moreover, you will learn how anonymous functions can be helpful. 
+
 
 **Note:** Exercises of this learning path should be done using:
 
@@ -60,48 +61,8 @@ After taking this step, you will be able to:
 
 <hr>
 
-### Step-02: Functions (more).
 
-#### Goals:
-
-```
-After taking this step, you will be able to:
-	1. interpret and implement Python programs with Python functions: positional arguments, keyword arguments, parameters default values, docstrings.
-```
-
-#### What to Learn?
-
-1. Using **BRef-01: Chapter 09** answer and experiment the following questions:
-   1. What are the positional arguments in Python? What about keyword arguments?
-   2. How can one define default values for function parameters?
-   3. What are Docstrings? How can they be helpful?
-
-#### Exercises:
-
-1. Describe in your own words what `*args` and `**kwargs` do.
-2. Create a function that takes an `*args` of numbers as argument, which calculates the sum of all numbers and returns the result. Call the function and print the returned value.
-3. Complete the given code below.
-
- ```python
-def count_passes(**kwargs):
-    count = 0
-    #Complete this function to count the number of passes
-
-    return count
-#
-result = count_passes(math="Fail", science="Fail", history="Pass", english="Pass")
-print(result)
-```
-
-
-5. Design two exercises of your own. They should improve understanding topics of this step.
-
-6. **Extra:** Provide your solutions to the exercises of **ORef-01: Functions**
-
-
-<hr>
-
-### Step-03: Sets.
+### Step-02: Sets.
 
 #### Goals:
 
@@ -132,6 +93,61 @@ After taking this step, you will be able to:
 
 5. Design two exercises of your own. They should improve understanding topics of this step.
 
+
+### Step-03: Functions (more).
+
+#### Goals:
+
+```
+After taking this step, you will be able to:
+	1. interpret and implement Python programs with Python functions: anonymous functions.
+```
+
+#### What to Learn?
+
+1. Using **BRef-01: Chapter 09** answer and experiment the following questions:
+   1. "Functions are first-class citizens": What does this sentence mean?
+   2. What is an anonymous function and how can you define it in Python? Experiment with some examples.
+
+#### Exercises:
+
+
+1. Complete the given code by creating a lambda that checks if a given number is even.
+
+```python
+even = #your lambda here
+print(even(4))
+print(even(13))
+```
+
+2. Create a code snippet that splits up a list into two new lists. Depending on if the number in the list is even or odd. Accomplish this with using a lambda and knowledge from the earlier weeks. 
+- For example: Original list of integers:
+`[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`.
+New list with only the even numbers:
+`[2, 4, 6, 8, 10]`.
+New list with the odd numbers:
+`[1, 3, 5, 7, 9]`
+
+3. Complete the function that checks if a given list is sorted or not, use at least one lambda within the function.
+
+```python
+def am_i_sorted(numberlist):
+    #write the code
+result = am_i_sorted([1,2,5,6,8,17])
+print(result) #True
+result = am_i_sorted([1,2,99,6,8,17])
+print(result) #False
+```
+
+4. Create a lambda that takes two arguments and returns a Tuple containing those two values. 
+
+
+5. Design two exercises of your own. They should improve understanding topics of this step.
+
+
+<hr>
+
+
 ## Code Analysis
 1. Analyze the given code below without executing it. What will be the result of the program?
 
@@ -148,6 +164,7 @@ schar.update(sfind)
 for i in schar:
     print(i)
 ```
+
 2. Given the following code below. Explain in your own words what happens in this code. What are the keys in the dictionary?
 
  ```python
@@ -157,4 +174,13 @@ for i in range(0,10):
 	rdic[i] = random.randint(0,100)
 for item in rdic.values():
 	print(item)
+```
+
+3. Analyse the given code below without executing it. What will be the result of the program?
+
+```python
+r = lambda a : a + 15
+print(r(10))
+r = lambda x, y : x * y
+print(r(12, 4))
 ```
