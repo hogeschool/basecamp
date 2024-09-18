@@ -23,8 +23,7 @@ The activities are designed based on these following references:
 #### Goals:
 
 ```
-After taking this step, you will be able to:
-	1. interpret and implement Python programs with Python Dictionaries: creating, adding and modifying items,  extracting value(s), extracting key(s), deleting, pop and clear, iteration over dictionaries.
+After taking this step, you will be able to interpret and implement Python programs with Python Dictionaries: creating, adding and modifying items,  extracting value(s), extracting key(s), deleting, pop and clear, iteration over dictionaries.
 ```
 
 #### What to Learn?
@@ -67,8 +66,7 @@ After taking this step, you will be able to:
 #### Goals:
 
 ```
-After taking this step, you will be able to:
-	1. interpret and implement Python programs with Python Sets: creating sets, difference between sets and lists and tuples, adding and removing elelemnts, membership operator, iteration over a set, basic operations between sets: intersection, union, difference and subset.
+After taking this step, you will be able to interpret and implement Python programs with Python Sets: creating sets, difference between sets and lists and tuples, adding and removing elelemnts, membership operator, iteration over a set, basic operations between sets: intersection, union, difference and subset.
 ```
 
 #### What to Learn?
@@ -99,8 +97,7 @@ After taking this step, you will be able to:
 #### Goals:
 
 ```
-After taking this step, you will be able to:
-	1. interpret and implement Python programs with Python functions: anonymous functions.
+After taking this step, you will be able to interpret and implement Python programs with anonymous functions.
 ```
 
 #### What to Learn?
