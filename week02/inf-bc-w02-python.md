@@ -106,7 +106,7 @@ After taking this step, you will be able to:
 7. Create two functions. One that prints `hello`, the other prints `bye`. The first functions calls the second one after printing. Call the first function.
 8. Provide your solutions to the exercises of Python 05: Step-01. **ORef-01: Functions** can be used as extra learning reference.
 9. Design two exercises of your own. They should improve understanding topics of this step.
-10. Install *PyCharm* on your working machine. Implement and run a simple Python program of your choice. 
+10. Install *Visual Studio Code* on your working machine. Implement and run a simple Python program of your choice. 
 	- It is important to learn how to create a new Python program, how to configure interpreter and how to run the program. Where do you see the results?
 
 
