@@ -1,6 +1,6 @@
 # Python 05: Functions, Lists and Tuples.
 
-**Introduction**: This document presents learning steps for Python 05. In Python 05, you will learn basics of functions to organise your large programs. A function is a fragment of code with a name to be reused in different places of the program. Moreover, in this week you will learn how to build a sequence structure using basic data types.
+**Introduction**: This document presents learning steps for Python 05. In Python 05, you will learn how to build a sequence structure using basic data types. Moreover, you will learn more features of functions.
 
 **Note:** Exercises of this learning path can be done using:
 
@@ -133,9 +133,9 @@ print(result)
 ```
 
 
-5. Design two exercises of your own. They should improve understanding topics of this step.
+4. Design two exercises of your own. They should improve understanding topics of this step.
 
-6. **Extra:** Provide your solutions to the exercises of **ORef-01: Functions**
+5. **Extra:** Provide your solutions to the exercises of **ORef-01: Functions**
 
 
 <hr>
