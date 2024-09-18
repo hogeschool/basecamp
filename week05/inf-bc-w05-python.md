@@ -144,20 +144,7 @@ print(result)
 
 ## Code Analysis
 
-1. Analyze the given code below without executing it. What will be the result of the program?
-
- ```python
-def do_something(*args, **kwargs):
-    for i in args:
-        for key, value in kwargs.items():
-            if i == key:
-                print(value)
-#
-#
-do_something("a", "z", "d", "b", a=1, b=2, c=3, d=4)
-```
-
-2. Analyze the two given codes below without executing them. What will be the result of the programs?
+1. Analyze the given codes below without executing them. What will be the result of the programs?
 
 ```python
 a_tuple = ('Never', 'gonna', 'give', 'you', 'up')
@@ -178,6 +165,18 @@ def do_something(x):
     return rtuple
 print(do_something(6))
 ```
+
+```python
+def do_something(*args, **kwargs):
+    for i in args:
+        for key, value in kwargs.items():
+            if i == key:
+                print(value)
+#
+#
+do_something("a", "z", "d", "b", a=1, b=2, c=3, d=4)
+```
+
 ```python
 def process_strings(strings):
     processed_strings = []
