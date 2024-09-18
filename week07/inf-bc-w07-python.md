@@ -22,18 +22,36 @@ Python
 #### Goals:
 
 ```
-After taking this step, you will be able to understand the concepts of namespace and scope in Python programs.
+After taking this step, you will be able to: 
+	1. understand the concepts of namespace and scope in Python programs.
+	2. employ anonymous functions to filter and/or change a sequence of values.
 ```
 
 #### What to Learn?
 
 1. Using **BRef-01: Chapter 09** answer and experiment the following questions:
    1. What are *namespace* and *scope*? What is the scope of a function? Use examples to justify your answers.
-   2. What is a `global` variable? What is a `local` variable?  
+   2. What is a `global` variable? What is a `local` variable? 
+2. Often implementing your solutions you may need to use some important built-in functions: ```map(...)``` and ```filter(...)```. Study them first [here](https://www.brianheinold.net/python/python_book.html#section_map_filter_reduce) and practice a few small examples to understand how they work and when you might need them.
+ 
 
 #### Exercises:
 
-1. Complete the function that checks if the items in a given list are `True` for the given lambda. Return a list containing all `True` values.
+1. Check the following code. Identify global variables and local variables. What do you expect to be printed? Modify the function to make it use the global x instead of the local x.
+
+
+```python
+x = 10 
+
+def my_function():
+    x = 5  
+    print("Inside the function, x =", x)
+
+my_function()
+print("Outside the function, x =", x)
+```
+
+2. Complete the function that checks if the items in a given list are `True` for the given lambda. Return a list containing all `True` values.
 
 ```python
 def check_with_lambda(lam, l):
@@ -42,14 +60,21 @@ def check_with_lambda(lam, l):
 x = lambda a : a < 10
 y = [1,6,19,22,7]
 print(check_with_lambda(x, y)) #[1,6,7]
+
 x = lambda a : a[1] == 'b'
 y = ["abc", "bcd", "ube", "cur"]
 print(check_with_lambda(x, y)) #["abc","ube"]
 ```
 
-2. Often implementing your solutions you may need to use some important built-in functions: ```map(...)``` and ```filter(...)```. Study them first [here](https://www.brianheinold.net/python/python_book.html#section_map_filter_reduce) and practice a few small examples to understand how they work and when you might need them.
+3. There is a list of names given below. 
+	1. Using `filter(...)`, write a program that provides a list containing the name with more than 5 characters. 
+	2. Using map(...), implement a program that converts all the names in the list to uppercase.
 
-8. Design two exercises of your own. They should improve understanding topics of this step.
+```python
+names = ["Mia", "Alex", "Sarah", "Benjamin", "Eve", "Christopher", "Leo", "Isabella", "Max", "Jonathan"]
+```
+
+4. Design two exercises of your own. They should improve understanding topics of this step.
 
 <hr>
 
@@ -68,7 +93,7 @@ After taking this step, you will be able to:
    1. We have learned *join()* on a string. How does *join()* work in a list?
    2. How can we sort items of a list? Is this possible on a tuple?
    3. There are several ways to copy a list: *list(), slicing, copy()* and *deepcopy()*. Experiment different expamples for each technique.
-   4. How can one build a list using *list comprehension*? Do we have *tuple comprehension*?
+   4. How can one build a list using *list comprehension* (for more check [here](https://www.brianheinold.net/python/python_book.html#section_list_comp))? Do we have *tuple comprehension*?
 
 #### Exercises:
 
@@ -170,10 +195,17 @@ A different dictionary could be:
 1. Analyze the given code below without executing it. What will be the result of the program?
 
 ```python
-r = lambda a : a + 15
-print(r(10))
-r = lambda x, y : x * y
-print(r(12, 4))
+name = "John"  
+
+def greet_one():
+    name = "Alice"  
+    print("Hello", name)
+
+def greet_two():
+    print("Hello", name)  
+
+greet_one()
+greet_two()
 ```
 
 2. One of the students has implemented the following code.
