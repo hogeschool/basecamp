@@ -136,18 +136,6 @@ After taking this step, you will be able to:
 1. Analyze the given code below without executing it. What will be the result of the program?
 
  ```python
-def do_something(*args, **kwargs):
-    for i in args:
-        for key, value in kwargs.items():
-            if i == key:
-                print(value)
-#
-#
-do_something("a", "z", "d", "b", a=1, b=2, c=3, d=4)
-```
-2. Analyze the given code below without executing it. What will be the result of the program?
-
- ```python
 sfind = set('orihme')
 schar = set('ichgo')
 print("Step 1:")
@@ -160,7 +148,7 @@ schar.update(sfind)
 for i in schar:
     print(i)
 ```
-3. Given the following code below. Explain in your own words what happens in this code. What are the keys in the dictionary?
+2. Given the following code below. Explain in your own words what happens in this code. What are the keys in the dictionary?
 
  ```python
 import random

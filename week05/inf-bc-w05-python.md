@@ -15,44 +15,7 @@ The activities are designed based on these following references:
 
 ## Path:
 
-### Step-01: What is a function?
-
-#### Goals:
-
-```
-After taking this step, you will be able to:
-	1. interpret and implement Python programs with Python functions: function definition, calling functions, return of a function, functions with arguments.
-```
-
-#### What to Learn?
-
-1. Using **BRef-01: Chapter 09** (read until section *Specify default Parameter Values* for now) answer and experiment the following questions:
-   1. What is a function in Python?
-   2. What are the main elements of a Python function? Define a simple function that does nothing.
-   3. How can a function be used (called)?
-   4. How can one return the result of a function?
-   5. What are the arguments and/or parameters?
-
-#### Exercises:
-
-*Note*: In the following exercises you can decide yourself what should be the name of function in your solution. Check [PEP8 Function and Variable Names](https://peps.python.org/pep-0008/#function-and-variable-names).
-
-1. Explain in your own words the difference between `arguments` and `parameters`.
-2. Create a function that just prints the word `hello`. Call the function and run your program. Where the function is *defined*? Where is it *called*?
-3. Create a function that takes a text as an argument. The function prints the text it receives. Call the function and run your program.
-4. Create a function that takes two numbers as argument. The function adds the numbers together and returns the results. Call the function and run your program.
-5. Create two functions, each takes a number as argument. The first one returns the number multiplied by 2 and returns it. The second multiplies it by 10 and returns it. Calling both functions add the two returned numbers together and print it. Run your program and check the results.
-6. Create two functions. One that prints `hello`, the other prints `bye`. Ask the user to input a number, if the number is higher than 10, call the first function. If the number if lower or equal to 10, call the second function. Test your program.
-7. Create two functions. One that prints `hello`, the other prints `bye`. The first functions calls the second one after printing. Call the first function.
-8. Provide your solutions to the exercises of Python 05: Step-01. **ORef-01: Functions** can be used as extra learning reference.
-9. Design two exercises of your own. They should improve understanding topics of this step.
-10. Install *PyCharm* on your working machine. Implement and run a simple Python program of your choice.
-	- It is important to learn how to create a new Python program, how to configure interpreter and how to run the program. Where do you see the results?
-
-
-<hr>
-
-### Step-02: Tuples.
+### Step-01: Tuples.
 
 #### Goals:
 
@@ -79,7 +42,7 @@ After taking this step, you will be able to:
 
 <hr>
 
-### Step-03: Lists.
+### Step-02: Lists.
 
 #### Goals:
 
@@ -133,8 +96,68 @@ After taking this step, you will be able to:
 7. Write a program that takes any two lists L and M of the same size and adds their elements together to form a new list N whose elements are sums of the corresponding elements in L and M. For instance, if ```L=[3,1,4]``` and ```M=[1,5,9]```, then N should equal ```[4,6,13]```.
 8. Design two exercises of your own. They should improve understanding topics of this step.
 
+
+<hr>
+
+### Step-03: Functions (more).
+
+#### Goals:
+
+```
+After taking this step, you will be able to:
+	1. interpret and implement Python programs with Python functions: positional arguments, keyword arguments, parameters default values, docstrings.
+```
+
+#### What to Learn?
+
+1. Using **BRef-01: Chapter 09** answer and experiment the following questions:
+   1. What are the positional arguments in Python? What about keyword arguments?
+   2. How can one define default values for function parameters?
+   3. What are Docstrings? How can they be helpful?
+
+#### Exercises:
+
+1. Describe in your own words what `*args` and `**kwargs` do.
+2. Create a function that takes an `*args` of numbers as argument, which calculates the sum of all numbers and returns the result. Call the function and print the returned value.
+3. Complete the given code below.
+
+ ```python
+def count_passes(**kwargs):
+    count = 0
+    #Complete this function to count the number of passes
+
+    return count
+#
+result = count_passes(math="Fail", science="Fail", history="Pass", english="Pass")
+print(result)
+```
+
+
+5. Design two exercises of your own. They should improve understanding topics of this step.
+
+6. **Extra:** Provide your solutions to the exercises of **ORef-01: Functions**
+
+
+<hr>
+
+
+
 ## Code Analysis
-1. Analyze the two given codes below without executing them. What will be the result of the programs?
+
+1. Analyze the given code below without executing it. What will be the result of the program?
+
+ ```python
+def do_something(*args, **kwargs):
+    for i in args:
+        for key, value in kwargs.items():
+            if i == key:
+                print(value)
+#
+#
+do_something("a", "z", "d", "b", a=1, b=2, c=3, d=4)
+```
+
+2. Analyze the two given codes below without executing them. What will be the result of the programs?
 
 ```python
 a_tuple = ('Never', 'gonna', 'give', 'you', 'up')
