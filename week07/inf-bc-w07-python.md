@@ -4,7 +4,8 @@
 
 **Note:** Exercises of this learning path must be done using:
 
-1. IDE: Using **BRef-01: Chapter 19, Section: Integrated Development Environment** PyCharm can be installed on your local machine.
+1. IDE: Using online resources [Visual Studio Code](https://code.visualstudio.com/docs) can be installed on your local machine.
+
 
 
 ## Materials:
