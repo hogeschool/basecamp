@@ -49,14 +49,12 @@ After taking this step, you will be able to interpret and implement Python progr
 
 4. Modify the code from the previous exercise so each value becomes a `tuple` containing two random numbers.
 
-5. Provide your solutions to the exercises of **ORef-01: Dictionary**.
+5. Design two exercises of your own. They should improve understanding topics of this step.
 
-6. Design two exercises of your own. They should improve understanding topics of this step.
-
-7. If you don't have PyCharm yet, install *PyCharm* on your working machine. Implement and run a simple Python program of your choice.
+6. If you don't have 'Visual Studio Code' yet, install *PyCharm* on your working machine. Implement and run a simple Python program of your choice.
 	- It is important to learn how to create a new Python program, how to configure interpreter and how to run the program. Where do you see the results?
 
-8. **Extra:** Provide your solutions to the exercises of **ORef-01: Dictionaries**
+7. **Extra:** Provide your solutions to the exercises of **ORef-01: Dictionaries**
 
 
 <hr>
