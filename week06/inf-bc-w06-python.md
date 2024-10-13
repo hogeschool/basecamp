@@ -42,7 +42,7 @@ After taking this step, you will be able to interpret and implement Python progr
 1. Describe in your own words the difference between a `dictionary` and a `tuple`.
 2. Create a new dictionary containing a key named `FirstName` with the value `Larry`, a key named `LastName` with the value `Page`. Print the last value from the dictionary.
 3. Create a dictionary with the following pairs `"brand": "Ford", "model": "Mustang", "year": 1964`.
-	- Print all the values from the distionary.
+	- Print all the values from the dictionary.
 	- Print all the keys from the dictionary.
 	- Print the length of the dictionary.
 	- Add `"color": "Red"` and remove the pair with key = `"year"`. Print keys and values separately.
