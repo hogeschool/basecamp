@@ -181,10 +181,10 @@ The `SUM` function returns the total sum of a numeric column.\
 It’s often used with the `GROUP BY` clause to sum values for groups.
 
 ```sql
-SELECT city, SUM(age) as total_age FROM students GROUP BY city;
+SELECT city, SUM(points) as total_points FROM students GROUP BY city;
 ```
 
-This query will sum the ages of students in each city.
+This query will sum the points of students in each city.
 
 <br>
 
