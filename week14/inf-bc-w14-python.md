@@ -64,7 +64,7 @@ This would reflect in the following SQL command:
 
 ```sql
 CREATE TABLE students ( 
-	id INT PRIMARY KEY AUTO_INCREMENT, 
+	id INTEGER PRIMARY KEY AUTOINCREMENT, 
 	first_name VARCHAR(50), 
 	last_name VARCHAR(100),
 	date_of_birth DATE, 
