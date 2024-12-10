@@ -63,8 +63,8 @@ If we want to store this information in a database, we need to create this table
 This would reflect in the following SQL command:
 
 ```sql
-CREATE TABLE students ( 
-	id INT PRIMARY KEY AUTO_INCREMENT, 
+CREATE TABLE students (
+	id INTEGER PRIMARY KEY AUTOINCREMENT
 	first_name VARCHAR(50), 
 	last_name VARCHAR(100),
 	date_of_birth DATE, 
