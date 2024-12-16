@@ -65,11 +65,11 @@ This would reflect in the following SQL command:
 ```sql
 CREATE TABLE students ( 
 	id INTEGER PRIMARY KEY AUTOINCREMENT, 
-	first_name VARCHAR(50), 
-	last_name VARCHAR(100),
+	first_name TEXT, 
+	last_name TEXT,
 	date_of_birth DATE, 
-	city VARCHAR(50),
-	points INT
+	city TEXT,
+	points INTEGER
 );
 ```
 
