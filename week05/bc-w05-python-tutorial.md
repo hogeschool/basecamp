@@ -7,7 +7,7 @@ So far, we have learned the fundamental structure of a Python program. We have p
 
 However, in many real-world scenarios, solving problems requires handling multiple values simultaneously, rather than working with just a few individual variables. To efficiently manage and organize data, Python provides collection structures that allow us to store, modify, and process multiple values within a single entity. Each of these structures serves a specific purpose and is optimized for different types of operations, making it easier for programmers to handle complex data efficiently.
 
-In this tutorial, we will introduce two fundamental data structures in Python and explore how they can be utilized effectively. Additionally, we will further expand our understanding of functions and their advanced features to enhance the modularity and efficiency of Python programs.
+In this tutorial, we will introduce the basics of two fundamental data structures in Python and explore how they can be utilized effectively. Additionally, we will further expand our understanding of functions and their features to enhance the modularity and efficiency of Python programs.
 
 
 ## Step 01: Tuples
@@ -78,91 +78,7 @@ print("X coordinate:", x)  # Output: 3
 print("Y coordinate:", y)  # Output: 7
 ```
 
-Although you cannot change the values inside a tuple after creating it, Python provides a few useful functions to work with tuples. If you have a tuple with repeated values, like `numbers = (1, 2, 3, 2, 4, 2)`, you can count how many times a value appears using `numbers.count(2)`, which will return `3` because `2` appears three times. You can also find the position of the first occurrence of a value by using `numbers.index(3)`, which will return `2`, meaning `3` is at index `2`.
-
-Tuples are useful when you want to keep a group of values together and make sure they stay the same throughout the program. They help organize data in a structured way and make programs easier to read and understand.
-
-```python
-# Defining a tuple with repeated values
-numbers = (1, 2, 3, 2, 4, 2)
-
-# Counting how many times 2 appears in the tuple
-count_of_twos = numbers.count(2)
-print("Number of times 2 appears:", count_of_twos)  # Output: 3
-
-# Finding the index of the first occurrence of 3
-index_of_three = numbers.index(3)
-print("Index of first occurrence of 3:", index_of_three)  # Output: 2
-```
-
-Even though tuples cannot be changed after they are created, Python provides ways to combine, compare, and work with them efficiently.
-
-If you want to combine two or more tuples, you can use the `+` operator. This does not change the original tuples but creates a new one that contains the elements from both. For example, if you have `numbers1 = (1, 2, 3)` and `numbers2 = (4, 5, 6)`, you can create a new tuple by writing `combined = numbers1 + numbers2`, which results in `(1, 2, 3, 4, 5, 6)`. Similarly, you can repeat a tuple multiple times using the `*` operator. If you write `doubled = numbers1 * 2`, the result will be `(1, 2, 3, 1, 2, 3)`. This is useful when you need a repeated pattern of values.
-
-```python
-# Defining two tuples
-numbers1 = (1, 2, 3)
-numbers2 = (4, 5, 6)
-
-# Combining two tuples using the + operator
-combined = numbers1 + numbers2
-print("Combined tuple:", combined)  # Output: (1, 2, 3, 4, 5, 6)
-
-# Repeating a tuple using the * operator
-doubled = numbers1 * 2
-print("Repeated tuple:", doubled)  # Output: (1, 2, 3, 1, 2, 3)
-```
-
-Tuples can also be compared using comparison operators like `==`, `<`, and `>`. Python compares tuples element by element. This means `tuple1 = (1, 2, 3)` is considered smaller than `tuple2 = (1, 3, 2)` because `2` is smaller than `3` in their first differing position. This feature is useful when sorting a list of tuples or checking if two tuples have the same values.
-
-Another useful operation with tuples is iterating over their elements. Since tuples are ordered collections, you can use a `for` loop to go through each value one by one. If you have `colors = ("red", "green", "blue")`, you can write:
-
-```python
-for color in colors:
-    print(color)
-```
-This will print each color in order: `"red"`, `"green"`, and `"blue". This method is especially useful when processing a list of values stored in a tuple.
-
-Even though tuples cannot be changed directly, you can still create a modified version by making a new tuple. If you want to change or update values in a tuple, you cannot do it directly because tuples are immutable. However, you can work around this limitation by converting the tuple into a list, modifying the list, and then converting it back into a tuple. For example:
-
-```python
-numbers = (1, 2, 3)
-temp_list = list(numbers)  # Convert tuple to list
-temp_list[1] = 10  # Modify the second element
-numbers = tuple(temp_list)  # Convert back to tuple
-print(numbers)  # Output: (1, 10, 3)
-```
-
-A nested tuple is a tuple that contains other tuples inside it. This is useful when storing structured data, where each item has multiple related values. Since tuples are immutable, using nested tuples helps keep data organized and prevents accidental modifications.
-
-For example, imagine you need to store information about students, including their `name`, `age`, and `grade`. Instead of creating separate variables for each student, you can use a tuple of tuples, where each inner tuple represents a student’s record. You can access a full record using indexing or retrieve specific details by using two indexes—one for selecting the student and another for selecting a particular piece of information.
-
-To work with nested tuples, you can use a `for` loop to iterate through each student and extract their details. This technique is useful when processing large amounts of structured data efficiently. 
-
-Here is an example demonstrating how to handle nested tuples in Python:
-
-```python
-# Defining a nested tuple containing student records
-students = (
-    ("Alice", 20, "A"),
-    ("Bob", 22, "B"),
-    ("Charlie", 21, "A"),
-)
-
-# Accessing a specific student's full record
-print(students[0])  # Output: ('Alice', 20, 'A')
-
-# Accessing specific details
-print(students[1][0])  # Output: Bob (name of second student)
-print(students[2][2])  # Output: A (grade of third student)
-
-# Iterating through nested tuples
-for student in students:
-    name, age, grade = student  # Tuple unpacking
-    print(f"{name} is {age} years old and got grade {grade}.")
-```
-
-Tuples are powerful tools that allow you to organize data efficiently while keeping it safe from accidental changes. They provide a structured way to store values, combine different pieces of data, compare elements, and iterate through them in an easy and efficient manner.
+Tuples are powerful tools that allow you to organize data efficiently while keeping it safe from accidental changes. They provide a structured way to store values, combine different pieces of data, compare elements, and iterate through them in an easy and efficient manner. 
 
 ### Problem Solving
 
@@ -364,48 +280,6 @@ print("Original numbers list:", numbers)  # Output: [1, 2, 3]
 print("Repeated list:", repeated_list)  # Output: [1, 2, 3, 1, 2, 3, 1, 2, 3]
 ```
 
-Lists also allow adding elements dynamically. Using `append()`, you can add an element to the **end of a list**, like `numbers.append(4)`, resulting in `[1, 2, 3, 4]`. The `insert()` method allows inserting at a specific index, such as `numbers.insert(1, 10)`, which results in `[1, 10, 2, 3, 4]`. Similarly, lists allow removing elements. Using `remove()`, you can delete an element by value, like `fruits.remove("banana")`, while `pop()` removes an element by index, such as `removed_item = fruits.pop(1)`, which removes `"cherry"` from the list.
-
-```python
-numbers = [1, 2, 3]
-
-# Append adds an element at the end
-numbers.append(4)
-print(numbers)  # Output: [1, 2, 3, 4]
-
-# Insert adds an element at a specific index
-numbers.insert(1, 10)  # Insert 10 at index 1
-print(numbers)  # Output: [1, 10, 2, 3, 4]
-
-fruits = ["apple", "banana", "cherry", "date"]
-
-# Remove an element by value
-fruits.remove("banana")
-print(fruits)  # Output: ['apple', 'cherry', 'date']
-
-# Remove an element by index
-removed_item = fruits.pop(1)  # Removes 'cherry' (index 1)
-print(fruits)  # Output: ['apple', 'date']
-print("Removed:", removed_item)  # Output: Removed: cherry
-```
-
-
-The `split()` method in Python is used to break a string into a list of words or parts, using a separator (default is a space). It returns a list where each element is a piece of the original string.
-
-```python
-text = "Python is fun"
-words = text.split()  # By default, it splits by spaces
-print(words)  # Output: ['Python', 'is', 'fun']
-
-data = "apple,banana,cherry,date"
-fruits = data.split(",")  # Splitting by commas
-print(fruits)  # Output: ['apple', 'banana', 'cherry', 'date']
-```
-
-Lists offer a variety of built-in methods, such as clear(), count(), sort(), and many more, which provide powerful ways to manipulate and manage list data. However, since our focus is not to provide an exhaustive reference on lists and tuples, we encourage the reader to explore and experiment with these methods independently.
-
-The choice between lists and tuples depends on the use case. Lists are ideal when data needs to be modified, such as a list of students in a class, where names may be added or removed. Tuples, on the other hand, are useful when the data should remain constant, such as storing the coordinates of a location `(x, y)`. Tuples are also slightly faster and use less memory because of their immutability.
-
 ### Problem Solving
 
 In a city, there are 20 ambulances stationed at different locations, each represented by its coordinates (x, y). Some ambulances are available, while others are occupied attending to other emergencies.
@@ -586,92 +460,6 @@ order_pizza(size="small", crust="thick", topping="mushrooms")
 # Output: Ordered a small pizza with thick crust and mushrooms topping.
 ``` 
 
-In Python, `*args` and `**kwargs` allow us to create functions that can accept a variable number of arguments, making them more flexible and dynamic.
-
-The `*args` parameter enables a function to accept any number of positional arguments, which are collected into a tuple. This is particularly useful when the exact number of arguments is unknown in advance. For example, a function that sums multiple numbers can take different numbers of inputs each time it is called.
-
-```python
-# Imagine we want a function that calculates the sum of any number of numbers (you don't know how many will be passed).
-def sum_numbers(*args):
-    return sum(args)  # Summing all the values in the tuple
-
-# Calling the function with different numbers of arguments
-print(sum_numbers(1, 2, 3))       # Output: 6
-print(sum_numbers(10, 20, 30, 40)) # Output: 100
-print(sum_numbers())               # Output: 0 (since no numbers were passed)
-```
-
-On the other hand, `**kwargs` allows a function to accept any number of keyword arguments. This is useful when handling optional named parameters dynamically. For instance, a function that processes user details can accept varying sets of attributes such as `name`, `age`, and `occupation` without being explicitly defined for each case.
-
-```python
-# Now, let’s say we want to create a function that accepts a person’s details, but we don’t know exactly which details will be provided.
-
-def display_info(**kwargs):
-    for key, value in kwargs.items():
-        print(f"{key}: {value}")
-
-# Calling the function with different keyword arguments
-display_info(name="Alice", age=25, job="Engineer")
-
-# Output:
-# name: Alice
-# age: 25
-# job: Engineer
-
-display_info(city="New York", country="USA", population=8_000_000)
-
-# Output:
-# city: New York
-# country: USA
-# population: 8000000
-```
-
-Let’s build a function that prints order details for a customer.
-
-```python
-def order_summary(customer_name, *items, **details):
-    print(f"Order Summary for {customer_name}:")
-    
-    print("\nItems Ordered:")
-    for item in items:
-        print(f"- {item}")
-    
-    print("\nAdditional Details:")
-    for key, value in details.items():
-        print(f"{key}: {value}")
-
-# Calling the function with various arguments
-order_summary("Bob", "Pizza", "Coke", "Ice Cream", payment="Credit Card", delivery="Home", time="30 mins")
-
-# Output:
-# Order Summary for Bob:
-#
-# Items Ordered:
-# - Pizza
-# - Coke
-# - Ice Cream
-#
-# Additional Details:
-# payment: Credit Card
-# delivery: Home
-# time: 30 mins
-```
-
-A docstring is a special kind of comment in Python that is used to describe what a function, class, or module does. Unlike regular comments (`#`), which are ignored by Python, docstrings are stored as metadata and can be accessed using the `help()` function.
-
-A docstring is written using triple double-quotes (`"""` or `'''`) at the beginning of a function, class, or module. It helps other programmers understand the purpose of the function without reading the full code.
-
-```python
-def add_numbers(a, b):
-    """Returns the sum of two numbers.
-
-    This function takes two numeric values as input and returns their sum.
-    """
-    return a + b
-
-# Using the help() function to display the docstring
-help(add_numbers)
-```
 
 ### Problem Solving
 
@@ -798,7 +586,7 @@ if __name__ == "__main__":
 
 ## Summary
 
-This tutorial provided a comprehensive introduction to fundamental data structures and key programming concepts in Python. It began by highlighting the importance of efficiently managing multiple values using Python’s collection structures, particularly lists and tuples. Tuples were covered first, emphasizing their immutability and suitability for storing fixed collections of items where data integrity was important. The tutorial then introduced lists as ordered, mutable collections that allowed duplicate elements, demonstrating essential operations such as indexing, appending, inserting, removing, and slicing.
+This tutorial provided an introduction to fundamental data structures and key programming concepts in Python. It began by highlighting the importance of efficiently managing multiple values using Python’s collection structures, particularly lists and tuples. Tuples were covered first, emphasizing their immutability and suitability for storing fixed collections of items where data integrity was important. The tutorial then introduced lists as ordered, mutable collections that allowed duplicate elements.
 
-The tutorial also explored functions, explaining how to write clear and well-documented code using docstrings. Various techniques for passing parameters were covered, including positional arguments, keyword arguments, default values, and *args, which provided flexibility in handling function inputs. These concepts helped in writing reusable and scalable Python functions, making the code more efficient and readable.
+The tutorial also explored functions. Various techniques for passing parameters were introduced. These concepts helped in writing reusable and scalable Python functions, making the code more efficient and readable.
 
