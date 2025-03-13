@@ -10,6 +10,7 @@
 
 The activities are designed based on these following references:
 
+- BaseCamp Tutorial - Week 05 [Available here](./bc-w05-python-tutorial.md)
 - **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
 - **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
 
@@ -26,7 +27,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 07** answer and experiment the following questions:
+1. Using BaseCamp Tutorial [Available here](./bc-w05-python-tutorial.md) and **BRef-01: Chapter 07** answer and experiment the following questions:
    1. What is a tuple in Python and how is it defined?
    2. How can one combine and compare two (or more) tuples?
    3. How can one iterate over the elements of a tuple?
@@ -54,7 +55,7 @@ After taking this step, you will be able to:
 #### What to Learn?
 
 
-1. Using **BRef-01: Chapter 07** answer and experiment the following questions:
+1. Using BaseCamp Tutorial [Available here](./bc-w05-python-tutorial.md) and **BRef-01: Chapter 07** answer and experiment the following questions:
    1. What is a list in Python and how is it defined?
    2. What is the result of *split()* on a string?
    3. There are two ways to get items from a list: offset and slice. What are the pros / cons of each? Experiment with some examples.
@@ -110,7 +111,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 09** answer and experiment the following questions:
+1. Using BaseCamp Tutorial [Available here](./bc-w05-python-tutorial.md) and **BRef-01: Chapter 09** answer and experiment the following questions:
    1. What are the positional arguments in Python? What about keyword arguments?
    2. How can one define default values for function parameters?
    3. What are Docstrings? How can they be helpful?
