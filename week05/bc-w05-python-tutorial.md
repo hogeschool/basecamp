@@ -291,7 +291,19 @@ You are given:
 	- A corresponding list indicating availability, where True means the ambulance is available, and False means it is currently in use.
 	- The incident location as a tuple (x, y).
 
-Your task is to identify the closest available ambulance using the Euclidean distance formula and dispatch it to the incident. If no ambulances are available, print a message indicating that all are occupied.
+Your task is to identify the closest available ambulance using the function is provided below and dispatch it to the incident. If no ambulances are available, print a message indicating that all are occupied.
+
+```python
+import math
+
+# Function to calculate Euclidean distance between two points
+def calculate_distance(loc1, loc2):
+    """Calculates the Euclidean distance between two coordinates (x, y)."""
+    x1, y1 = loc1
+    x2, y2 = loc2
+    return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+
+```
 
 #### Strategy
 
@@ -315,7 +327,8 @@ When solving a problem like finding the closest available ambulance using lists,
 
 3. Break the Problem into Subtasks: 
 	- To make the solution modular and manageable, break it down into smaller subtasks:
-		- Calculate the Distance: Use the Euclidean distance formula to measure how far an ambulance is from the incident location:
+		- Calculate the Distance: Use the given function to measure how far an ambulance is from the incident location.
+		- **For curious minds**: This function is implementing distance between two points using this formula
 $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
 		- Implement a function that takes two coordinates and returns the computed distance.
 	-	Find the Closest Available Ambulance
