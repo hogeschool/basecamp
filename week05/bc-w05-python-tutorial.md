@@ -86,7 +86,19 @@ You have two subgroups of delivery drones, each represented as a tuple of `(ID, 
 	1.	Use a function to combine the two subgroups into one tuple containing all drones.
 	2.	Iterate through all drones and display their details.
 	3.	Find the drone with the lowest battery (so it can be recharged).
-	4.	Find the drone closest to a given target location for delivery using a manual distance formula.
+	4.	Find the drone closest to a given target location for delivery using a manual distance formula. Use the function implemented and given below:
+
+```python
+import math
+
+# Function to calculate Euclidean distance between two points
+def calculate_distance(loc1, loc2):
+    """Calculates the Euclidean distance between two coordinates (x, y)."""
+    x1, y1 = loc1
+    x2, y2 = loc2
+    return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+```
+
 
 #### Strategy
 
@@ -102,7 +114,9 @@ When solving a problem like coordinating drones using tuples, a structured appro
 	- Storing Data: Define tuples to represent individual drones and groups of drones.
 	- Combining Data: Use functions to merge two drone groups.
 	- Iterating Over Data: Use loops to go through each drone and analyze its attributes.
-	- Knowing How to Calculate the Closest Distance Between Two Points: The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ can be found using the Euclidean distance formula: $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
+		- Calculate the Distance: Use the given function to measure how far an ambulance is from the incident location.
+		- **For curious minds**: This function is implementing distance between two points using this formula
+$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
 	- Comparing Values: Find the drone with the lowest battery and the closest drone.
 4.	Write Modular Code
 	- Use functions to keep code organized (e.g., a function for combining tuples, another for calculating distance).
