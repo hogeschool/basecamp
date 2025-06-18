@@ -12,6 +12,7 @@
 The activities are designed based on these following references:
 
 - **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- **BRef-02**: Book, Mark Lutz; **"Learning Python: Powerful Object-Oriented Programming"**; [Available here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/)
 - **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
 - **OPyEditor**: Online Editor for Programming; "Online Python (with shell and file storing functionalities)"; [Available here](https://www.online-python.com/)
 
@@ -31,11 +32,12 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Use **BRef-01: Chapter 01** as a reference and discuss the following questions:
+1. Use **BRef-01: Chapter 01** and **BRef-02: Chapter 02** as a reference and discuss the following questions:
    1. What is a general definition of a program? Provide some (non-computer) examples.
-   2. What are the main elements of a program?
-   3. **First Taste of Python**: Read section *Little Programs* and analyze the provided examples.
-   4. Consider the following Python programs and guess what each program does. Analyze and discuss inputs, behaviour and expected outputs.
+   2. What are the main elements of a (Python) program?
+   3. How Python runs programs?
+   4. **First Taste of Python**: Read section *Little Programs* and analyze the provided examples.
+   5. Consider the following Python programs and guess what each program does. Analyze and discuss inputs, behaviour and expected outputs.
    		- *Note*: Certainly there are lines that you won't understand. The goal is to evaluate your first taste of Python programs and check how intuitive they are. You will be learning all details in later stages.
 
 ```python
