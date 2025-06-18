@@ -106,11 +106,12 @@ This Arch is constructed in the following weeks:
 ## References:
 ### Programming:
 1. Bill Lubanovic; **"Introducing Python: Modern Computing in Simple Packages"**; [Check here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/) 
-2. Brian Heinold; **"A Practical Introduction to Python Programming"** [Available Online, Check here](https://www.brianheinold.net/python/python_book.html).
+2. Mark Lutz; **"Learning Python: Powerful Object-Oriented Programming"**; [Check here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/) 
+3. Brian Heinold; **"A Practical Introduction to Python Programming"** [Available Online, Check here](https://www.brianheinold.net/python/python_book.html).
 	- Solutions to the exercises are [available here](https://github.com/henrytirla/Practical-Introduction-to-python).
-3. Ben Stephenson; **"The Python Workbook: A Brief Introduction with Exercises and Solutions"** [Check here](https://link.springer.com/book/10.1007/978-3-319-14240-1)
-4. Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers; **How to Think Like a Computer Scientist**[Check here](https://openbookproject.net/thinkcs/python/english3e/)
-5. **CS Principles: Big Ideas in Programming** [Check here](https://www.openbookproject.net/books/StudentCSP/)
+4. Ben Stephenson; **"The Python Workbook: A Brief Introduction with Exercises and Solutions"**; [Check here](https://link.springer.com/book/10.1007/978-3-319-14240-1)
+5. Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers; **"How to Think Like a Computer Scientist"**;[Check here](https://openbookproject.net/thinkcs/python/english3e/)
+6. **"CS Principles: Big Ideas in Programming"**; [Check here](https://www.openbookproject.net/books/StudentCSP/)
 
 
 ### Skills:
