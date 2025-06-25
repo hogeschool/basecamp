@@ -13,6 +13,7 @@
 The learning steps are designed based on these following references:
 
 - **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- **BRef-02**: Book, Mark Lutz; **"Learning Python: Powerful Object-Oriented Programming"**; [Available here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/)
 - **OPyEditor**: Online Editor for Programming; "Online Python (with shell and file storing functionalities)"; [Available here](https://www.online-python.com/)
 
 
@@ -32,7 +33,7 @@ After taking this step, you will be able to:
 #### What to Learn?
 
 
-1. Using **BRef-01: Chapter 05** experiment and answer the following questions:
+1. Using **BRef-01: Chapter 05** and **BRef-02: Chapter 07** experiment and answer the following questions:
    1. What is string data type?
    2. Which Python built-in function can be used to convert a data type to string? Try some examples in Python shell.
    3. In Python (and some other programming languages), special characters can be included in a string. How one can specify these special characters in a Python program? List some of these characters and try the examples in Python shell.
@@ -63,7 +64,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 06** answer and experiment the following questions:
+1. Using **BRef-01: Chapter 06** and **BRef-02: Chapter 13** answer and experiment the following questions:
    1. A *while* loop consists of a condition and a body. Pick and example from **BRef-01: Chapter 06** and specify the condition and the body of the program.
    2. Using *while* loop implement a program that prints a message (like *Hello*) for 10 times.
    3. Using *while* loop implement a counter that counts down from 10 until 0. In each iteration, the program must print the value of the counter.
@@ -118,7 +119,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 06** answer and experiment the following questions:
+1. Using **BRef-01: Chapter 06** and **BRef-02: Chapter 13** answer and experiment the following questions:
    1. What are the main elements of a *for* loop?
    2. Using *for* loop implement a program that prints a message (like *Hello*) for 10 times.
    3. Using *for* loop implement a counter that counts down from 10 until 0. In each iteration, the program must print the value of the counter.
