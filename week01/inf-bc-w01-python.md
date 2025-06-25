@@ -122,7 +122,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 02** explore the answers for the following questions: 
+1. Using **BRef-01: Chapter 02** and **BRef-02: Chapter 04, Chapter 05** explore the answers for the following questions: 
 *Note: There are some concepts (like objects, classes, references) that students may not be able to grasp completely. The main idea is to try as much as possible. They will be more clear later when they learn Object Oriented programming in Python.*
    1. What is a value? What is a variable?
    2. What is a *type*? Provide five examples.
@@ -131,7 +131,7 @@ After taking this step, you will be able to:
    5. How can you assign a value to a variable? How can we express that two items are equal?
    6. How can you identify the type of a value / variable?
    
-4. Using **BRef-01: Chapter 05** discuss and experiment the following questions:
+4. Using **BRef-01: Chapter 05** and **BRef-02: Chapter 07** discuss and experiment the following questions:
    1. What are the character and text string types in Python? Make examples. 
    2. How can you combine several strings? Implement an example.
    3. Can you multiply a number with a string? What is the result? Implement an example.
@@ -182,7 +182,7 @@ After taking this step, you will be able to:
 ```
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 03** answer the following questions:
+1. Using **BRef-01: Chapter 03** and **BRef-02: Chapter 05**answer the following questions:
    1. Name basic built-in data types in Python. Use examples.
    2. What are the basic arithmetic operations? Make a list with the meaning (semantics) of each operation.
    3. Why is *precedence* an important concept? Make examples.
