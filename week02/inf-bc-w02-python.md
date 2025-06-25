@@ -12,6 +12,7 @@
 The activities are designed based on these following references:
 
 - **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- **BRef-02**: Book, Mark Lutz; **"Learning Python: Powerful Object-Oriented Programming"**; [Available here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/)
 - **OPyEditor**: Online Editor for Programming; "Online Python (with shell and file storing functionalities)"; [Available here](https://www.online-python.com/)
 
 ## Path:
@@ -55,7 +56,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 04** discuss and experiment the following questions:
+1. Using **BRef-01: Chapter 04** and **BRef-02: Chapter 12** discuss and experiment the following questions:
    1. What is a comment? How can you specify a comment in Python?
    2. What are: boolean values, boolean expressions, comparison operators?
    3. What is a conditional statement in Python? What is correct syntax for a correct *if-else* statament? What is a *body* of a *if-else* statement?
@@ -86,7 +87,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 09** answer and experiment the following questions:
+1. Using **BRef-01: Chapter 09** and **BRef-02: Chapter 16** answer and experiment the following questions:
    1. What is a function in Python?
    2. What are the main elements of a Python function? Define a simple function that does nothing.
    3. How can a function be used (called)? 
