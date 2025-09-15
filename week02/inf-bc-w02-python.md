@@ -13,6 +13,7 @@ The activities are designed based on these following references:
 
 - **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
 - **BRef-02**: Book, Mark Lutz; **"Learning Python: Powerful Object-Oriented Programming"**; [Available here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/)
+- **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
 - **OPyEditor**: Online Editor for Programming; "Online Python (with shell and file storing functionalities)"; [Available here](https://www.online-python.com/)
 
 ## Path:
@@ -105,7 +106,7 @@ After taking this step, you will be able to:
 5. Create two functions, each takes a number as argument. The first one returns the number multiplied by 2 and returns it. The second multiplies it by 10 and returns it. Calling both functions add the two returned numbers together and print it. Run your program and check the results.
 6. Create two functions. One that prints `hello`, the other prints `bye`. Ask the user to input a number, if the number is higher than 10, call the first function. If the number if lower or equal to 10, call the second function. Test your program.
 7. Create two functions. One that prints `hello`, the other prints `bye`. The first functions calls the second one after printing. Call the first function.
-8. Provide your solutions to the exercises of Python 05: Step-01. **ORef-01: Functions** can be used as extra learning reference.
+8. Provide your solutions to the exercises of **ORef-01: Functions**. The description of functions in **ORef-01: Functions** can be used as extra learning reference.
 9. Design two exercises of your own. They should improve understanding topics of this step.
 10. Install *Visual Studio Code* on your working machine. Implement and run a simple Python program of your choice. 
 	- It is important to learn how to create a new Python program, how to configure interpreter and how to run the program. Where do you see the results?
