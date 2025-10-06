@@ -53,8 +53,9 @@ After taking this step, you will be able to interpret and implement Python progr
 
 6. Design two exercises of your own. They should improve understanding topics of this step.
 
-7. If you don't have PyCharm yet, install *PyCharm* on your working machine. Implement and run a simple Python program of your choice.
+7. If you don't have an IDE yet, install an IDE on your working machine. Implement and run a simple Python program of your choice.
 	- It is important to learn how to create a new Python program, how to configure interpreter and how to run the program. Where do you see the results?
+	- *Note*: Visual Studio Code is recommended as an IDE within this study program. The book **BRef-01** provides and explanation about *PyCharm*.
 
 8. **Extra:** Provide your solutions to the exercises of **ORef-01: Dictionaries**
 
