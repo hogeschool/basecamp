@@ -5,7 +5,6 @@
 **Note:** In Python 01, exercises and examples can be executed using:
 
 1. Online Python Editor **OPyEditor**: The final program should be stored on your local machine.
-2. Local Python Package (see ExtraStep-01): Using **BRef-01: Appendix B** Python can be installed on your local machine.
 
 ## Materials:
 
