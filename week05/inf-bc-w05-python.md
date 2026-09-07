@@ -54,7 +54,7 @@ After taking this step, you will be able to:
 #### What to Learn?
 
 
-1. Using BaseCamp Tutorial [Available here](./bc-w05-python-tutorial.md) and **BRef-01: Chapter 07** answer and experiment the following questions:
+1. Using **BRef-01: Chapter 07** answer and experiment the following questions:
    1. What is a list in Python and how is it defined?
    2. What is the result of *split()* on a string?
    3. There are two ways to get items from a list: offset and slice. What are the pros / cons of each? Experiment with some examples.
