@@ -1,0 +1,29 @@
+# Wat git moet negeren in deze map.
+# Alles wat hier staat blijft gewoon op je schijf; het wordt alleen niet
+# meegenomen in commits en dus ook nooit meegestuurd bij een push.
+
+# ── Python-rommel ────────────────────────────────────────────────────
+# Deze mappen maakt Python zelf aan als je een script draait. Ze zijn
+# volledig herbouwbaar en horen niet in versiebeheer.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# ── Persoonlijke werkmapinstellingen ─────────────────────────────────
+# .claude bevat je lokale toestemmingen voor Claude Code — persoonlijk,
+# en niet iets waar een medestudent of docent iets aan heeft.
+.claude/
+
+# .vscode zijn je editorinstellingen voor deze map. Ook persoonlijk.
+# Wil je ze juist wél delen (bijvoorbeeld met een projectgroep), haal dan
+# de regel hieronder weg.
+.vscode/
+
+# ── Windows / macOS ──────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+.DS_Store

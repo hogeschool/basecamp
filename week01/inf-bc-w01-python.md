@@ -71,7 +71,7 @@ print(a)
 print(b)
 # what will be printed here?
 ```
-	
+
 ```python
 #Code 03
 num = int(input("Enter a number: "))
@@ -84,13 +84,13 @@ else:
        num -= 1
    print("Result is", sum)
 ```
-	
+
 ```python
 #Code 04
 import random
 print(random.randint(0, 9))
 ```
-	
+
 ```python
 #Code 05
 my_str = input("Enter a string: ")
@@ -121,17 +121,17 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 02** and **BRef-02: Chapter 04, Chapter 05** explore the answers for the following questions: 
+1. Using **BRef-01: Chapter 02** and **BRef-02: Chapter 04, Chapter 05** explore the answers for the following questions:
 *Note: There are some concepts (like objects, classes, references) that students may not be able to grasp completely. The main idea is to try as much as possible. They will be more clear later when they learn Object Oriented programming in Python.*
    1. What is a value? What is a variable?
    2. What is a *type*? Provide five examples.
-   3. How can you define a variable in Python? 
+   3. How can you define a variable in Python?
    4. Define some variables in Python that are not permitted in Python. Experiment with breaking various rules in defining variables. Analyse the error message.
    5. How can you assign a value to a variable? How can we express that two items are equal?
    6. How can you identify the type of a value / variable?
-   
+
 4. Using **BRef-01: Chapter 05** and **BRef-02: Chapter 07** discuss and experiment the following questions:
-   1. What are the character and text string types in Python? Make examples. 
+   1. What are the character and text string types in Python? Make examples.
    2. How can you combine several strings? Implement an example.
    3. Can you multiply a number with a string? What is the result? Implement an example.
    4. How can you get the 5th character of a given string? How can you get the first character?
@@ -150,7 +150,7 @@ z = 1
 y = z
 z = 12
 y = 13
-x = y 
+x = y
 y = x
 z = 7
 print(x)
@@ -162,9 +162,9 @@ print(z)
 4. What is an example from a number we use in the real world that we want to save as a number in Python, not as a text.
 5. User input in Python is always considered a text, even if we just enter numbers, why would it act like this?
 6. Define a variable called zipcode (postcode) and give it the value of your own zipcode. Print it using print().
-7. Define a variable called favorite_food, give it the value "Pizza". Print it. Change the value to "Roti". Print it. 
-8. Define a variable that stores your school email address. Extract your student number from this email address. 
-9. Write down the complete alphabet in a variable. Split it halfway over two different variables. Join them back together in the wrong order and print it. 
+7. Define a variable called favorite_food, give it the value "Pizza". Print it. Change the value to "Roti". Print it.
+8. Define a variable that stores your school email address. Extract your student number from this email address.
+9. Write down the complete alphabet in a variable. Split it halfway over two different variables. Join them back together in the wrong order and print it.
 10. Explain in your own words with an ```f``` string is?
 11. Finish all the exercises listed in **BRef-01-Chapter 02: Things to Do** and Practice the exercises listed in **BRef-01-Chapter 05: Things to Do**.
 
