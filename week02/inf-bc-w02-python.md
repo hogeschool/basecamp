@@ -11,7 +11,8 @@
 
 The activities are designed based on these following references:
 
-- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- **BRef-01-2ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 2nd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- - **BRef-01-3ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 3rd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-3rd/9781098174392/)
 - **BRef-02**: Book, Mark Lutz; **"Learning Python: Powerful Object-Oriented Programming"**; [Available here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/)
 - **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
 - **OPyEditor**: Online Editor for Programming; "Online Python (with shell and file storing functionalities)"; [Available here](https://www.online-python.com/)
@@ -31,7 +32,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Appendix B** perform the following tasks:
+1. Using **BRef-01-2ed: Appendix B** or **BRef-01-3ed: Chapter 01. Introduction** perform the following tasks:
    1. Install Python on your machine.
    2. Open a terminal (command window) and check the version of your Python. Which command did you use?
    3. Using **OPyEditor** implement a program that prints a statement of a defined variable, like ```Hello Python!```. Save the file on your local machine within a folder created by you. Using your terminal (command line) execute your first Python program. Which command do you need to execute a Python program?
@@ -39,8 +40,8 @@ After taking this step, you will be able to:
 #### Exercises:
 
 1. Create a file named ```print_input.py```. Open it using an editor of your own choice. Enter your code in it to ask the user to input a text. Print that text. Run the file using the command line.
-2. Read **BRef-01: Chapter 01, Section Running Python** and runPython shell. Excute ```quit()```. What do you observe?
-3. StartPython shell and execute ```num = input('Enter a number:')```. Enter a number and print the value of ```num```. There are two different ways to print the value of ```num```. Try both at shell. Which one works in **OPyEditor**? Do you recognise differences between programming using *python shell* and an *editor*? Read **BRef-01: Chapter 01, Section Running Python** including subsections.
+2. Read **BRef-01-2ed: Chapter 01, Section: Running Python** or **BRef-01-3ed: Chapter 01, Section: Run Python Programs** and run Python shell. Excute ```quit()```. What do you observe?
+3. Start Python shell and execute ```num = input('Enter a number:')```. Enter a number and print the value of ```num```. There are two different ways to print the value of ```num```. Try both at shell. Which one works in **OPyEditor**? Do you recognise differences between programming using *python shell* and an *editor*? Read **BRef-01-2ed: Chapter 01, Section: Running Python** or **BRef-01-3ed: Chapter 01, Section: Run Python Programs** including subsections.
 
 **Note**: After this step, you can try both *python shell* and *editor* to practice. It is recommended to use *python shell* for small experiments and use programming within *editor*s (local or online) for writing a full program.
 
