@@ -5,7 +5,7 @@
 **Note:** Exercises of this learning path can be done using:
 
 1. Online Python Editor **OPyEditor**: The final program should be stored on your local machine.
-2. Local Python Package (see Step-01): Using **BRef-01: Appendix B** Python can be installed on your local machine.
+2. Local Python Package (see Step-01): Using **BRef-01-2ed** or **BRef-01-3ed**  Python can be installed on your local machine.
 
 ## Materials:
 
@@ -58,7 +58,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 04** and **BRef-02: Chapter 12** discuss and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 04** / **BRef-01-3ed: Chapter 06** / **BRef-02: Chapter 12** discuss and experiment the following questions:
    1. What is a comment? How can you specify a comment in Python?
    2. What are: boolean values, boolean expressions, comparison operators?
    3. What is a conditional statement in Python? What is correct syntax for a correct *if-else* statament? What is a *body* of a *if-else* statement?
@@ -74,7 +74,7 @@ After taking this step, you will be able to:
 	- Write a comment above the *if-statement* explaining with it does.
 6. Implement a program in which the user is asked for input. Save the input of the user in a variable. Print ```yes``` if the input contains the character ```e```, ```no``` if not.
 7. Think of an useful situation where you need to check something with a if-statement within another if-statement (nested if-statements). Code it and write a comment to explain why it needs a nested if.
-8. Finish all the exercises listed in **BRef-01-Chapter 04: Things to Do**.
+8. Finish all the exercises listed in **BRef-01-2ed, Chapter 04: Things to Do** / **BRef-01-3ed, Chapter 06: Practice**.
 
 <hr>
 
