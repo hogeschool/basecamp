@@ -5,7 +5,7 @@
 **Note:** Exercises of this learning path can be done using:
 
 1. Online Python Editor **OPyEditor**: The final program should be stored on your local machine.
-2. Local Python Package (see Step-01): Using **BRef-01-2ed** or **BRef-01-3ed**  Python can be installed on your local machine.
+2. Local Python Package (see Step-01): Using **BRef-01-2ed** / **BRef-01-3ed**  Python can be installed on your local machine.
 
 ## Materials:
 
@@ -13,8 +13,8 @@ The activities are designed based on these following references:
 
 - **BRef-01-2ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 2nd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
 - **BRef-01-3ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 3rd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-3rd/9781098174392/)
-- **BRef-02**: Book, Mark Lutz; **"Learning Python: Powerful Object-Oriented Programming"**; [Available here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/)
-- **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
+- **BRef-02**: Book, Mark Lutz; "Learning Python: Powerful Object-Oriented Programming"; [Available here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/)
+<!-- - **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html) -->
 - **OPyEditor**: Online Editor for Programming; "Online Python (with shell and file storing functionalities)"; [Available here](https://www.online-python.com/)
 
 ## Path:
@@ -32,7 +32,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01-2ed: Appendix B** or **BRef-01-3ed: Chapter 01. Introduction** perform the following tasks:
+1. Using **BRef-01-2ed: Appendix B** / **BRef-01-3ed: Chapter 01. Introduction** perform the following tasks:
    1. Install Python on your machine.
    2. Open a terminal (command window) and check the version of your Python. Which command did you use?
    3. Using **OPyEditor** implement a program that prints a statement of a defined variable, like ```Hello Python!```. Save the file on your local machine within a folder created by you. Using your terminal (command line) execute your first Python program. Which command do you need to execute a Python program?
@@ -40,8 +40,8 @@ After taking this step, you will be able to:
 #### Exercises:
 
 1. Create a file named ```print_input.py```. Open it using an editor of your own choice. Enter your code in it to ask the user to input a text. Print that text. Run the file using the command line.
-2. Read **BRef-01-2ed: Chapter 01, Section: Running Python** or **BRef-01-3ed: Chapter 01, Section: Run Python Programs** and run Python shell. Excute ```quit()```. What do you observe?
-3. Start Python shell and execute ```num = input('Enter a number:')```. Enter a number and print the value of ```num```. There are two different ways to print the value of ```num```. Try both at shell. Which one works in **OPyEditor**? Do you recognise differences between programming using *python shell* and an *editor*? Read **BRef-01-2ed: Chapter 01, Section: Running Python** or **BRef-01-3ed: Chapter 01, Section: Run Python Programs** including subsections.
+2. Read **BRef-01-2ed: Chapter 01, Section: Running Python** / **BRef-01-3ed: Chapter 01, Section: Run Python Programs** and run Python shell. Excute ```quit()```. What do you observe?
+3. Start Python shell and execute ```num = input('Enter a number:')```. Enter a number and print the value of ```num```. There are two different ways to print the value of ```num```. Try both at shell. Which one works in **OPyEditor**? Do you recognise differences between programming using *python shell* and an *editor*? Read **BRef-01-2ed: Chapter 01, Section: Running Python** / **BRef-01-3ed: Chapter 01, Section: Run Python Programs** including subsections.
 
 **Note**: After this step, you can try both *python shell* and *editor* to practice. It is recommended to use *python shell* for small experiments and use programming within *editor*s (local or online) for writing a full program.
 
@@ -58,7 +58,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01-2ed: Chapter 04** / **BRef-01-3ed: Chapter 06** / **BRef-02: Chapter 12** discuss and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 04. Choose with if** / **BRef-01-3ed: Chapter 06. If and Match** / **BRef-02: Chapter 12** discuss and experiment the following questions:
    1. What is a comment? How can you specify a comment in Python?
    2. What are: boolean values, boolean expressions, comparison operators?
    3. What is a conditional statement in Python? What is correct syntax for a correct *if-else* statament? What is a *body* of a *if-else* statement?
@@ -107,9 +107,9 @@ After taking this step, you will be able to:
 5. Create two functions, each takes a number as argument. The first one returns the number multiplied by 2 and returns it. The second multiplies it by 10 and returns it. Calling both functions add the two returned numbers together and print it. Run your program and check the results.
 6. Create two functions. One that prints `hello`, the other prints `bye`. Ask the user to input a number, if the number is higher than 10, call the first function. If the number if lower or equal to 10, call the second function. Test your program.
 7. Create two functions. One that prints `hello`, the other prints `bye`. The first functions calls the second one after printing. Call the first function.
-8. Provide your solutions to the exercises of **ORef-01: Functions**. The description of functions in **ORef-01: Functions** can be used as extra learning reference.
-9. Design two exercises of your own. They should improve understanding topics of this step.
-10. Install *Visual Studio Code* on your working machine. Implement and run a simple Python program of your choice. 
+<!-- 8. Provide your solutions to the exercises of **ORef-01: Functions**. The description of functions in **ORef-01: Functions** can be used as extra learning reference. -->
+8. Design two exercises of your own. They should improve understanding topics of this step.
+9. Install *Visual Studio Code* on your working machine. Implement and run a simple Python program of your choice. 
 	- It is important to learn how to create a new Python program, how to configure interpreter and how to run the program. Where do you see the results?
 
 
