@@ -17,6 +17,7 @@ venv/
 # .claude bevat je lokale toestemmingen voor Claude Code — persoonlijk,
 # en niet iets waar een medestudent of docent iets aan heeft.
 .claude/
+.notes/
 
 # .vscode zijn je editorinstellingen voor deze map. Ook persoonlijk.
 # Wil je ze juist wél delen (bijvoorbeeld met een projectgroep), haal dan

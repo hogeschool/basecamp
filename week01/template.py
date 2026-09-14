@@ -13,7 +13,6 @@
 # First, list all of the outputs, then convert it to Python code.
 
 
-
 ## EXERCISE 1 - RECTANGLE
 # Calculate and print the area of a rectangle
 # for width and length given by the user.
@@ -31,7 +30,6 @@ area = width_int * length_int
 print("The area of rectangle is:", area)
 
 
-
 ## EXERCISE 2 - PERIMETER
 # Calculate and print the area and perimeter of a rectangle
 # for width and length given by the user.
@@ -44,15 +42,11 @@ length_int = int(length_str)
 
 # Processing
 area = width_int * length_int
-perimeter = 2*length_int + 2*width_int
+perimeter = 2 * length_int + 2 * width_int
 
 # Outputs
 print("The area of rectangle is:", area)
 print("The perimeter of rectangle is:", perimeter)
-
-
-
-
 
 
 ## EXERCISE 3 - MIDDLE DIGIT

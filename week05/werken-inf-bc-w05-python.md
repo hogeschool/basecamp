@@ -168,4 +168,61 @@ print(result)
 #### Oefening 5. **Extra:** Provide your solutions to the exercises of **ORef-01: Functions**
 
 
+---
+
+## Code Analysis
+
+#### Opdracht 1. Analyze the given codes below without executing them. What will be the result of the programs?
+
+```python
+a_tuple = ('Never', 'gonna', 'give', 'you', 'up')
+counter = 0
+for x in a_tuple:
+    if x[0] ==  'g':
+        counter = counter + 1
+    else:
+        counter = counter + 2
+print(counter)
+```
+
+```python
+def do_something(x):
+    rtuple = x,
+    for i in range(2,11):
+        rtuple = rtuple + ((x*i),)
+    return rtuple
+print(do_something(6))
+```
+
+```python
+def do_something(*args, **kwargs):
+    for i in args:
+        for key, value in kwargs.items():
+            if i == key:
+                print(value)
+#
+#
+do_something("a", "z", "d", "b", a=1, b=2, c=3, d=4)
+```
+
+```python
+def process_strings(strings):
+    processed_strings = []
+    for string in strings:
+        processed_string = ""
+        for char in reversed(string):
+            processed_string += char
+        processed_strings.append(processed_string)
+    return processed_strings
+
+def main():
+    names = ["Alice", "Bob", "Charlie", "Dave"]
+    processed_names = process_strings(names)
+    for name in processed_names:
+        print(name)
+
+main()
+```
+
+
 

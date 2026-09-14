@@ -160,4 +160,47 @@ print(result) #False
 #### Oefening 5. Design two exercises of your own. They should improve understanding topics of this step.
 
 
+---
+
+## Code Analysis
+
+#### Opdracht 1. Analyze the given code below without executing it. What will be the result of the program?
+
+```python
+sfind = set('orihme')
+schar = set('ichgo')
+print("Step 1:")
+for i in sfind:
+    if i in schar:
+        print(i)
+#
+print("Step 2:")
+schar.update(sfind)
+for i in schar:
+    print(i)
+```
+
+
+#### Opdracht 2. Given the following code below. Explain in your own words what happens in this code. What are the keys in the dictionary?
+
+```python
+import random
+rdic = {}
+for i in range(0,10):
+	rdic[i] = random.randint(0,100)
+for item in rdic.values():
+	print(item)
+```
+
+
+#### Opdracht 3. Analyse the given code below without executing it. What will be the result of the program?
+
+```python
+r = lambda a : a + 15
+print(r(10))
+r = lambda x, y : x * y
+print(r(12, 4))
+```
+
+
 

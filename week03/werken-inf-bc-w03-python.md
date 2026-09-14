@@ -174,4 +174,58 @@ while i > end:
 - **6.1**, **6.2** and **6.3**.
 
 
+---
+
+## Code Analysis
+
+#### Opdracht 1. For each of the following given codes
+
+- Without executing the code try to read the code and write down what will be the output.
+  - Use the [Python Code Visualizer](https://cscircles.cemc.uwaterloo.ca/visualize) and execute the code step-by-step. Observe how the variables and statements are executing in each iteration of the loops.
+
+ ```python
+# Code 1
+i = 7
+for number in range(1, i + i):
+	print(number)
+```
+
+ ```python
+# Code 2
+i = 1
+j = 10
+for number in range(i, j):
+    if number > 5:
+        print(number)
+    else:
+        print('Hello')
+```
+
+ ```python
+# Code 3
+sentence = "I just came to say hello!"
+count = 0
+for letter in sentence:
+    if letter == " ":
+        count = count + 1
+    elif letter == "a":
+        count = count - 1
+print(count)
+```
+
+ ```python
+ # Code 4
+ sentence = "I just came to say hello!"
+ for i in range(0, len(sentence)):
+ 	print(sentence[i])
+```
+
+ ```python
+# Code 5
+ sentence = "I just came to say hello!"
+ for c in sentence:
+ 	print(c)
+```
+
+
 

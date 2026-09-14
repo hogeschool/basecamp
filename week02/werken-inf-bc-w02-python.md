@@ -11,24 +11,31 @@
 *Using **BRef-01: Appendix B** perform the following tasks*
 
 #### 1. Install Python on your machine.
-
+Check!
 
 #### 2. Open a terminal (command window) and check the version of your Python. Which command did you use?
-
+3.13
 
 #### 3. Using **OPyEditor** implement a program that prints a statement of a defined variable, like `Hello Python!`. Save the file on your local machine within a folder created by you. Using your terminal (command line) execute your first Python program. Which command do you need to execute a Python program?
-
+py or python
 
 ### Exercises
 
 #### Oefening 1. Create a file named `print_input.py`. Open it using an editor of your own choice. Enter your code in it to ask the user to input a text. Print that text. Run the file using the command line.
+Done!
+Got the following:
 
+❯ cd "F:\0 Informatica\basecamp-folder\week02"
+
+F:\0 Informatica\basecamp-folder\week02
+❯ py print_input.py
+Hallo, wereld!
 
 #### Oefening 2. Read **BRef-01: Chapter 01, Section Running Python** and runPython shell. Excute `quit()`. What do you observe?
-
+I can type things, execute it and immediately get a response
 
 #### Oefening 3. StartPython shell and execute `num = input('Enter a number:')`. Enter a number and print the value of `num`. There are two different ways to print the value of `num`. Try both at shell. Which one works in **OPyEditor**? Do you recognise differences between programming using *python shell* and an *editor*? Read **BRef-01: Chapter 01, Section Running Python** including subsections.
-
+print(f"{num}")
 
 ---
 
@@ -39,7 +46,7 @@
 *Using **BRef-01: Chapter 04** and **BRef-02: Chapter 12** discuss and experiment the following questions*
 
 #### 1. What is a comment? How can you specify a comment in Python?
-
+"#" wordt niet meegenomen in het programma
 
 #### 2. What are: boolean values, boolean expressions, comparison operators?
 
@@ -130,4 +137,44 @@
 - It is important to learn how to create a new Python program, how to configure interpreter and how to run the program. Where do you see the results?
 
 
+---
 
+## Code Analysis
+
+#### Opdracht 1. Given the following problem statement, one of the students has submitted two solutions. The submitted solutions may not work correctly.
+
+- Without executing the submitted code, check the implementation, analyze and find the issue(s).
+- Use the following link to run the code step by step and visualize the execution. [Python Execution Visualizer](https://cscircles.cemc.uwaterloo.ca/visualize) Note: Before pressing "Visualize Execution" you need to enter your input at "Enter optional text input for ...".
+- This step-by-step execution should confirm the issues you have found in the code.
+- After listing the issues, propose how the code must be fixed. Fix the code and again use step-by-step execution to see that the possible issues are fixed.
+- Remember: the main goal is to learn how the program is executed step-by-step. Focus on the **goal**.
+
+**Problem Statement**
+ > Develop a program that reads a four-digit integer from the user and displays the sum of the digits in the number.
+ >
+ > ###### Input example:
+ > `3141`
+ >
+ > ###### Output example:
+ > `3+1+4+1=9`
+
+**Incorrect Solutions** \
+ Solution 1:
+ ```python
+ fourdigit_num = int(input("Input a four digit number: "))
+ x  = fourdigit_num // 1000
+ x1 = (fourdigit_num - x * 1000) // 100
+ x2 = (fourdigit_num - x * 1000 - x1 * 100) // 10
+ x3 = fourdigit_num - x * 1000 - x1 * 100 - x2 * 10
+ print("Sum:",x+x1+x2+x3)
+ ```
+ Solution 2:
+ ```python
+ numstr = input("enter a 4 digit number")
+ sum = 0
+ text = ""
+ for i in range(len(numstr)):
+    sum += int(numstr[i])
+    text = text + numstr[i]
+ print(text)
+ ```

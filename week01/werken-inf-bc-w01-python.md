@@ -269,3 +269,66 @@ print(z)
 
 
 
+---
+
+## Code Analysis
+
+#### Opdracht 1. Analyze the programming solutions given below and write down in one sentence: what do they do? What problems do they try to solve?
+
+```python
+# Code Analysis 1
+# Inputs
+a = int(input("enter value A: "))
+b = int(input("enter value B: "))
+
+# Processing
+t = a
+a = b
+b = t
+
+# Outputs
+print("A =", a)
+print("B =", b)
+```
+
+```python
+# Code Analysis 2
+
+# Inputs
+num = int(input("Enter a number: "))
+
+# Processing
+dig = num % 10
+
+# Outputs
+print(dig)
+```
+
+
+#### Opdracht 2. Implementing a solution for a given problem is challenging for a starting programmer. It is helpful to have a guideline with some steps. Check [this guideline](./checklist_metacog.pdf) and apply it the Problem 5 of this week. *Hint: A template with some examples provided [here](./template.py)*
+
+
+#### Opdracht 3. One of the students has tried to apply the guideline for a given problem. But, the code does not produce the expected results. Check the code and without executing the code try to find the mistake.
+
+```python
+# Ask the user for the name of item X.
+# Then ask the user for the price of item X.
+# Finally, ask the user for desired quantity of item X.
+# Based on input, calculate how much you have to pay.
+# Write the message in the form:
+#   "To purchase N units of X you must pay M euros."
+
+
+# Inputs
+name = input("Input the name of item X: ")
+
+price = input("What is the price of", name, "? ")
+
+quantity = input("How many units of", name, "do you want to buy? ")
+
+# Processing
+total = price * quantity
+
+# Outputs
+print("To purchase", quantity, "units of", name, "you must pay", total, "euros.")
+```
