@@ -121,7 +121,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 06** and **BRef-02: Chapter 13** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 06, Loop with while and for** / **BRef-01-3ed: Chapter 07, for and while** / **BRef-02: Chapter 13, while and for loops** answer and experiment the following questions:
    1. What are the main elements of a *for* loop?
    2. Using *for* loop implement a program that prints a message (like *Hello*) for 10 times.
    3. Using *for* loop implement a counter that counts down from 10 until 0. In each iteration, the program must print the value of the counter.
@@ -137,8 +137,8 @@ After taking this step, you will be able to:
 4. The ```for``` and ```while``` are considered 'loops'. Explain in your own words what a loop is.
 5. Describe the difference between the ```for``` and ```while``` in your own words.
 
-11. Practice the exercises listed in **BRef-01-Chapter 06: Things to Do**:
-	- **6.1**, **6.2** and **6.3**.
+11. Practice the exercises listed in **BRef-01-2ed: Chapter 06: Things to Do** / **BRef-01-3ed: Chapter 07: Practice**:
+	- **7.1**, **7.2** and **7.3**.
 
 ## Code Analysis
 
