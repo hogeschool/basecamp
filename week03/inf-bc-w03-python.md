@@ -35,7 +35,7 @@ After taking this step, you will be able to:
 #### What to Learn?
 
 
-1. Using **BRef-01: Chapter 05** and **BRef-02: Chapter 07** experiment and answer the following questions:
+1. Using **BRef-01-2ed: Chapter 05, Test Strings** / **BRef-01-3ed: Chapter 04, Strings** / **BRef-02: Chapter 07, String Fundamentals** experiment and answer the following questions:
    1. What is string data type?
    2. Which Python built-in function can be used to convert a data type to string? Try some examples in Python shell.
    3. In Python (and some other programming languages), special characters can be included in a string. How one can specify these special characters in a Python program? List some of these characters and try the examples in Python shell.
