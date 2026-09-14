@@ -6,15 +6,17 @@
 **Note:** Exercises of this learning path can be done using:
 
 1. Online Python Editor **OPyEditor**: The final program should be stored on your local machine.
-2. Local Python Package: Using **BRef-01: Appendix B** Python can be installed on your local machine.
+2. Local Python Package: Using **BRef-01-2ed** / **BRef-01-3ed**  Python can be installed on your local machine.
 
 ## Materials:
 
-The learning steps are designed based on these following references:
+The activities are designed based on these following references:
 
-- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
-- **BRef-02**: Book, Mark Lutz; **"Learning Python: Powerful Object-Oriented Programming"**; [Available here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/)
+- **BRef-01-2ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 2nd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- **BRef-01-3ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 3rd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-3rd/9781098174392/)
+- **BRef-02**: Book, Mark Lutz; "Learning Python: Powerful Object-Oriented Programming"; [Available here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/)
 - **OPyEditor**: Online Editor for Programming; "Online Python (with shell and file storing functionalities)"; [Available here](https://www.online-python.com/)
+
 
 
 ## Path:
