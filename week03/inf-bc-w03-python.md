@@ -66,8 +66,8 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 06** and **BRef-02: Chapter 13** answer and experiment the following questions:
-   1. A *while* loop consists of a condition and a body. Pick and example from **BRef-01: Chapter 06** and specify the condition and the body of the program.
+1. Using **BRef-01-2ed: Chapter 06, Loop with while and for** / **BRef-01-3ed: Chapter 07, for and while** / **BRef-02: Chapter 13, while and for loops** answer and experiment the following questions:
+   1. A *while* loop consists of a condition and a body. Pick and example from **BRef-01-2ed: Chapter 06** / **BRef-01-3ed: Chapter 07** and specify the condition and the body of the program.
    2. Using *while* loop implement a program that prints a message (like *Hello*) for 10 times.
    3. Using *while* loop implement a counter that counts down from 10 until 0. In each iteration, the program must print the value of the counter.
    4. What is *break* statement?
