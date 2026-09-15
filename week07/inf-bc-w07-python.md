@@ -11,10 +11,10 @@
 ## Materials:
 
 The activities are designed based on these following references:
-Python
-- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
-- **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
 
+- **BRef-01-2ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 2nd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- **BRef-01-3ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 3rd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-3rd/9781098174392/)
+- **BRef-02**: Book, Mark Lutz; "Learning Python: Powerful Object-Oriented Programming"; [Available here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/)
 
 ## Path:
 
@@ -30,7 +30,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 09** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 09, Functions** / **BRef-01-3ed: Chapter 10, Functions** answer and experiment the following questions:
    1. What are *namespace* and *scope*? What is the scope of a function? Use examples to justify your answers.
    2. What is a `global` variable? What is a `local` variable? 
 2. Often implementing your solutions you may need to use some important built-in functions: ```map(...)``` and ```filter(...)```. Study them first [here](https://www.brianheinold.net/python/python_book.html#section_map_filter_reduce) and practice a few small examples to understand how they work and when you might need them.
@@ -90,7 +90,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 07** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 07, Tuples and Lists** / **BRef-01-3ed: Chapter 08, Tuples and Lists** answer and experiment the following questions:
    1. We have learned *join()* on a string. How does *join()* work in a list?
    2. How can we sort items of a list? Is this possible on a tuple?
    3. There are several ways to copy a list: *list(), slicing, copy()* and *deepcopy()*. Experiment different expamples for each technique.
@@ -134,7 +134,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 08** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 08, Dictionaries and Sets** / **BRef-01-3ed: Chapter 09, Dictionaries and Sets** answer and experiment the following questions:
    1. How do *copy()* and *deepcopy()* behave on dictionaries? What about sets?
    2. How does *dictionary comprehension* work? What about sets?
    3. Try to build the following nested structures:
