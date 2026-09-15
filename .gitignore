@@ -24,6 +24,30 @@ venv/
 # de regel hieronder weg.
 .vscode/
 
+# ── Lesmateriaal van de opleiding ────────────────────────────────────
+# lesmateriaal/ bevat alle originele docx, pptx, pdf en xlsx die HR via
+# OneDrive aanlevert, per week gerangschikt: samen ~715 MB, waarvan 684 MB
+# in 42 PowerPoints.
+#
+# Die bestanden blijven bewust buiten git. Twee redenen:
+#   1. Deze repo is publiek. Het lesmateriaal is van de opleiding en hoort
+#      niet door mij op GitHub gezet te worden.
+#   2. GitHub gaat klagen boven 50 MB per bestand en een repo van 715 MB
+#      is niet meer prettig te klonen.
+#
+# De inhoud is niet weg. Per week staat het lesplan als weekNN/lesweek-NN.md
+# in git, met per bestand een link naar lesmateriaal/. De INDEX.md per week
+# somt van elke PowerPoint de slidetitels op, zodat je er gewoon op kunt
+# zoeken zonder de binary.
+#
+# Let op de ster: "lesmateriaal/*" sluit de inhoud uit maar laat git wél in
+# de map kijken, zodat de uitzonderingen eronder werken. Zonder ster stapt
+# git de map niet in en worden de INDEX-bestanden alsnog genegeerd.
+lesmateriaal/*
+!lesmateriaal/*/
+lesmateriaal/*/*
+!lesmateriaal/*/INDEX.md
+
 # ── Windows / macOS ──────────────────────────────────────────────────
 Thumbs.db
 desktop.ini

@@ -1,3 +1,61 @@
+# Basecamp INFBSC02 — 2026-2027
+
+> **Wegwijzer.** Onder deze kop staat de originele Engelstalige introductie van de
+> opleiding op het Python-leerpad. Wat je in de praktijk het vaakst nodig hebt:
+
+| Wat zoek je? | Waar |
+|---|---|
+| Rooster, alle deadlines, opdrachtenlijst | [`programma.md`](./programma.md) |
+| Leeruitkomsten, beoordeling, aanwezigheidsplicht | [`cursushandleiding.md`](./cursushandleiding.md) |
+| Doelen en programma van een week, dag voor dag | `weekNN/lesweek-NN.md` |
+| Het leerpad van die week | `weekNN/week N voorbereiding.md` |
+| Jouw antwoorden op de weekvragen | `weekNN/week N werkblad.md` |
+| Een opdracht om aan te werken | `weekNN/<CODE>-<naam>/` |
+| De originele docx, pptx en pdf van HR | `lesmateriaal/weekNN/` — of klik ze aan in het weekoverzicht |
+| Extra oefenmateriaal | [`extra-opdrachten/`](./extra-opdrachten) |
+| Invulformats (dossier, PvA, evaluaties, challenge) | [`formats/`](./formats) |
+
+### Hoe een weekmap eruitziet
+
+```
+week06/
+  lesweek-06.md                  doelen, deadlines, dag voor dag, links naar het materiaal
+  week 6 voorbereiding.md        het leerpad van de opleiding
+  week 6 werkblad.md             jouw antwoorden op de weekvragen
+  A2W6A1-social-network/         werkmap per opdracht
+    README.md                    de opdracht + jouw aanpak
+    A2W6A1.py                    hier schrijf je je code
+  A2W6P1-unique-characters/
+  ...
+
+lesmateriaal/week06/             de originele docx en pptx van HR  (buiten git)
+  INDEX.md                       wat erin zit, met de slidetitels per deck
+```
+
+De weekmap bevat alleen tekst en je eigen werk. De docx en pptx staan gebundeld in
+`lesmateriaal/`; klik ze aan vanuit `lesweek-NN.md` en ze openen in Word of PowerPoint.
+
+### De weken
+
+| Arch | Weken |
+|---|---|
+| Arch 0 — introductie | [00](./week00/lesweek-00.md) |
+| Arch 1 — programmeerbasis | [01](./week01/lesweek-01.md) · [02](./week02/lesweek-02.md) · [03](./week03/lesweek-03.md) · [04](./week04/lesweek-04.md) *(challenge)* |
+| Arch 2 — collecties, testen | [05](./week05/lesweek-05.md) · [06](./week06/lesweek-06.md) · [07](./week07/lesweek-07.md) · [08](./week08/lesweek-08.md) *(challenge + mid-term)* |
+| Arch 3 — objecten, bestanden | [09](./week09/lesweek-09.md) · [10](./week10/lesweek-10.md) · [11](./week11/lesweek-11.md) · [12](./week12/lesweek-12.md) *(challenge)* |
+| Arch 4 — databases, afronding | [13](./week13/lesweek-13.md) · [14](./week14/lesweek-14.md) · [15](./week15/lesweek-15.md) · [16](./week16/lesweek-16.md) *(meesterproef)* · [17](./week17/lesweek-17.md) · [18](./week18/lesweek-18.md) *(assessments)* · [19](./week19/lesweek-19.md) *(afsluiting)* |
+
+Week 4, 8 en 12 zijn challengeweken zonder gewoon programmeerritme; daar staat geen
+`week N voorbereiding.md`. Hetzelfde geldt voor week 0 en 17 t/m 19.
+
+`lesmateriaal/` staat buiten git — 715 MB, en het materiaal is van de opleiding terwijl
+deze repo publiek is. De inhoud is wel omgezet: de lesplannen naar `lesweek-NN.md`, de
+formats naar `formats/`, de handleiding naar `cursushandleiding.md`, en elke
+`lesmateriaal/weekNN/INDEX.md` somt per PowerPoint de slidetitels op zodat je erop kunt
+zoeken zonder de binary te openen.
+
+---
+
 # Introduction
 
 This collection covers a learning path for Basics of Programming. It covers acitivities around topics that are essential to learn basics of programming in Python.
@@ -24,9 +82,9 @@ As a result of participating in **BaseCamp:Arch One**, students will be able to:
 
 This Arch is constructed in the following weeks:
 
-- [**Week01: Linear Programs**](./week01/inf-bc-w01-python.md) 
-- [**Week02: Branching Programs, Functions**](./week02/inf-bc-w02-python.md) 
-- [**Week03: Iterative Programs**](./week03/inf-bc-w03-python.md) 
+- [**Week01: Linear Programs**](./week01/week%201%20voorbereiding.md) 
+- [**Week02: Branching Programs, Functions**](./week02/week%202%20voorbereiding.md) 
+- [**Week03: Iterative Programs**](./week03/week%203%20voorbereiding.md) 
 - **Week04: Review and Challenge**
 
 
@@ -48,9 +106,9 @@ As a result of participating in **BaseCamp: Arch Two**, students will be able to
 
 This Arch is constructed in the following weeks:
 
-- [**Week05: Functions, Lists and Tuples**](./week05/inf-bc-w05-python.md) 
-- [**Week06: Functions, Dictionaries and Sets**](./week06/inf-bc-w06-python.md) 
-- [**Week07: Functions and Nested Structures**](./week07/inf-bc-w07-python.md) 
+- [**Week05: Functions, Lists and Tuples**](./week05/week%205%20voorbereiding.md) 
+- [**Week06: Functions, Dictionaries and Sets**](./week06/week%206%20voorbereiding.md) 
+- [**Week07: Functions and Nested Structures**](./week07/week%207%20voorbereiding.md) 
 - **Week08: Review and Challenge**
 
 <br><br>
@@ -73,9 +131,9 @@ As a result of participating in **BaseCamp: Arch Three**, students will be able 
 
 This Arch is constructed in the following weeks:
 
-- [**Week09: Everything is an Object**](./week09/inf-bc-w09-python.md) 
-- [**Week10: (Plain) Data Files**](./week10/inf-bc-w10-python.md) 
-- [**Week11: Structured Data Files**](./week11/inf-bc-w11-python.md) 
+- [**Week09: Everything is an Object**](./week09/week%209%20voorbereiding.md) 
+- [**Week10: (Plain) Data Files**](./week10/week%2010%20voorbereiding.md) 
+- [**Week11: Structured Data Files**](./week11/week%2011%20voorbereiding.md) 
 - **Week12: Review and Challenge**
 
 <br><br>
@@ -95,9 +153,9 @@ As a result of participating in **BaseCamp: Arch Four**, students will be able t
 
 This Arch is constructed in the following weeks:
 
-- [**Week13: Database - basics**](./week13/inf-bc-w13-python.md) 
-- [**Week14: Database - extended**](./week14/inf-bc-w14-python.md) 
-- [**Week15: Functions: Higher Order & Recursion**](./week15/inf-bc-w15-python.md) 
+- [**Week13: Database - basics**](./week13/week%2013%20voorbereiding.md) 
+- [**Week14: Database - extended**](./week14/week%2014%20voorbereiding.md) 
+- [**Week15: Functions: Higher Order & Recursion**](./week15/week%2015%20voorbereiding.md) 
 - **Week16: Review and Challenge**
 
 <br><br>
