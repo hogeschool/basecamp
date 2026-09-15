@@ -12,9 +12,9 @@
 
 The activities are designed based on these following references:
 
-- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
-- **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
-- **ORef-02**: Book, Brian Heinold; "A Practical Introduction to Python Programming" [Available Online, Check here](https://www.brianheinold.net/python/python_book.html)
+- **BRef-01-2ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 2nd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- **BRef-01-3ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 3rd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-3rd/9781098174392/)
+- **BRef-02**: Book, Mark Lutz; "Learning Python: Powerful Object-Oriented Programming"; [Available here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/)
 
 
 ## Path:
@@ -29,7 +29,7 @@ After taking this step, you will be able to interpret and implement Python progr
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 08** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 08, Dictionaries and Sets** / **BRef-01-3ed: Chapter 09, Dictionaries and Sets** answer and experiment the following questions:
    1. What is a dictionary in Python and how can you create a dictionary?
    2. How can items be added/changed to/in a dictionary?
    3. How can you get the value of a given key?
@@ -49,15 +49,12 @@ After taking this step, you will be able to interpret and implement Python progr
 
 4. Modify the code from the previous exercise so each value becomes a `tuple` containing two random numbers.
 
-5. Provide your solutions to the exercises of **ORef-01: Dictionary**.
-
 6. Design two exercises of your own. They should improve understanding topics of this step.
 
 7. If you don't have an IDE yet, install an IDE on your working machine. Implement and run a simple Python program of your choice.
 	- It is important to learn how to create a new Python program, how to configure interpreter and how to run the program. Where do you see the results?
-	- *Note*: Visual Studio Code is recommended as an IDE within this study program. The book **BRef-01** provides and explanation about *PyCharm*.
+	- *Note*: Visual Studio Code is recommended as an IDE within this study program. 
 
-8. **Extra:** Provide your solutions to the exercises of **ORef-01: Dictionaries**
 
 
 <hr>
@@ -73,7 +70,7 @@ After taking this step, you will be able to interpret and implement Python progr
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 08** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 08, Dictionaries and Sets** / **BRef-01-3ed: Chapter 09, Dictionaries and Sets** answer and experiment the following questions:
    1. What is a set in Python and how is it defined?
    2. How can one add/remove elements to/from a set?
    3. How can one iterate over a set?
@@ -104,7 +101,7 @@ After taking this step, you will be able to interpret and implement Python progr
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 09** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 09, Functions** / **BRef-01-3ed: Chapter 10, Functions** answer and experiment the following questions:
    1. "Functions are first-class citizens": What does this sentence mean?
    2. What is an anonymous function and how can you define it in Python? Experiment with some examples.
 
