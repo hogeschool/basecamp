@@ -123,9 +123,6 @@ Variabelen zijn a en b, statement; print.
 num = word tot een functie gemaakt.
 
 
-#### Oefening 3. Using **OPyEditor** try to execute the given programs. Does the output of the programs match your expectations?
-
-
 ---
 
 ## Step-02: Everything starts with Data
@@ -135,42 +132,48 @@ num = word tot een functie gemaakt.
 *Using **BRef-01: Chapter 02** and **BRef-02: Chapter 04, Chapter 05** explore the answers for the following questions*
 
 #### 1. What is a value? What is a variable?
-
+A value is data and a variable is a label for the value and the data it contains
 
 #### 2. What is a *type*? Provide five examples.
-
+text, integer, float, bool, list, byte
 
 #### 3. How can you define a variable in Python?
+Het gebruiken van een = teken.
+
+```python
+value = int(input("Give a number: "))
+variable = value
+print(variable)
+```
+
 
 
 #### 4. Define some variables in Python that are not permitted in Python. Experiment with breaking various rules in defining variables. Analyse the error message.
-
+Variabelen met getallen erin etc.
 
 #### 5. How can you assign a value to a variable? How can we express that two items are equal?
-
+Een waarde toekennen doe je met het "=" teken. Zeggen dat ze gelijk zijn met "=="
 
 #### 6. How can you identify the type of a value / variable?
-
-
-*Using **BRef-01: Chapter 05** and **BRef-02: Chapter 07** discuss and experiment the following questions*
+In de code zelf door gebruik van int, float etc. Door uitvoering code: type() of isinstance(value, type)
 
 #### 7. What are the character and text string types in Python? Make examples.
-
+Kut vraag
 
 #### 8. How can you combine several strings? Implement an example.
-
+Gebruik +, f"{}",("".join(["",""]))
 
 #### 9. Can you multiply a number with a string? What is the result? Implement an example.
-
+Ja dat kan maar het herhaalt gewoon de string
 
 #### 10. How can you get the 5th character of a given string? How can you get the first character?
-
+Tellen begint bij 0, dus [4], of [0]
 
 #### 11. How can you get a substring from a given string? For example, the zipcodes (postcodes) in The Netherlands consist of 4 digits followed by 2 letters. How can you extract the letters from a given zipcode?
-
+[start:end], [start:]; alles vanaf een punt. [:end]; alles tot een punt, [-2:end]; laatste twee
 
 #### 12. You have learned how to print something as an output of your program. How can you read something as input? What is the *function*? What is the type?
-
+Functie is print, type is altijd string.
 
 ### Exercises
 

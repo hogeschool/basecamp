@@ -13,6 +13,9 @@ venv/
 .mypy_cache/
 .pytest_cache/
 
+# Persoonlijk rommel
+week02/Supporting-data-formats/supporting-topic-data-formats inleveren.md
+
 # ── Persoonlijke werkmapinstellingen ─────────────────────────────────
 # .claude bevat je lokale toestemmingen voor Claude Code — persoonlijk,
 # en niet iets waar een medestudent of docent iets aan heeft.

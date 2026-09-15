@@ -50,9 +50,20 @@ print(f"{num}")
 
 #### 2. What are: boolean values, boolean expressions, comparison operators?
 
+Een boolean expression is een andere naam voor een conditionele test. Een boolean value is True / False, net als boolean expression na evaluatie. Tot slot een comparison operator levert altijd een bool op, T/F, de operatie vergelijkt is dit waar of niet? Bijvoorbeeld 3<4, bevat ook een waarde; True.
 
 #### 3. What is a conditional statement in Python? What is correct syntax for a correct *if-else* statament? What is a *body* of a *if-else* statement?
 
+Een conditie wordt wel of niet ontmoet.
+
+```python
+leeftijd = 20
+
+if leeftijd >= 18:
+    print("volwassen")
+else:
+    print("minderjarig")
+```
 
 ### Exercises
 
