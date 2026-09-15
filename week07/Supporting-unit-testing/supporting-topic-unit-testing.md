@@ -1,7 +1,7 @@
 # Supporting topic — Unit testing & research skills (Arch 2)
 
 > Omgezet uit `Assignment Unit testing & researching skills Arch 2.docx`.
-> Het origineel staat in [`lesmateriaal/week07/Lesson Material`](../lesmateriaal/week07/Lesson%20Material).
+> Het origineel staat in [`lesmateriaal/week07/Lesson Material`](../../lesmateriaal/week07/Lesson%20Material).
 > Dit is het lege format van de opleiding — invullen doe je zelf.
 
 ---

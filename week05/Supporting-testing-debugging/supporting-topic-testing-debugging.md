@@ -1,7 +1,7 @@
 # Supporting topic — Testing & Debugging (Arch 2)
 
 > Omgezet uit `Supporting topic Testing & Debugging - Arch 2.docx`.
-> Het origineel staat in [`lesmateriaal/week05/Lesson Material`](../lesmateriaal/week05/Lesson%20Material).
+> Het origineel staat in [`lesmateriaal/week05/Lesson Material`](../../lesmateriaal/week05/Lesson%20Material).
 > Dit is het lege format van de opleiding — invullen doe je zelf.
 
 ---

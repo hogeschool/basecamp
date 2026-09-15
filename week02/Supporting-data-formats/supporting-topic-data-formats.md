@@ -5,23 +5,24 @@
 > Dit is het lege format van de opleiding — invullen doe je zelf.
 
 ---
+
 ## 2.1Supporting topic week 2 – Data formats
 
 Handmatig omrekenen
 
 Cijfers in decimale getallen zijn 0-9. Wat zijn de cijfers in hexadecimaal formaat? Wat zijn de cijfers in binair formaat?
 
-| Decimaal | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Hexadecimaal |  |  |  |  |  |  |  |  |  |  |
-| Binair |  |  |  |  |  |  |  |  |  |  |
+| Decimaal     | 0        | 1        | 2        | 3        | 4        | 5        | 6        | 7        | 8        | 9        |
+| ------------ | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| Hexadecimaal |          |          |          |          |          |          |          |          |          |          |
+| Binair       | 00000000 | 00000001 | 00000010 | 00000011 | 00000100 | 00000101 | 00000110 | 00000111 | 00001000 | 00001001 |
 
 Converteer (handmatig) de volgende decimale getallen naar hexadecimaal en binair: 8, 10, 15, 21, 32, 64, 256, 500, 512, 1000.
 
-| Decimaal | 8 | 10 | 15 | 21 | 32 | 64 | 256 | 500 | 512 | 1000 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Hexadecimaal |  |  |  |  |  |  |  |  |  |  |
-| Binair |  |  |  |  |  |  |  |  |  |  |
+| Decimaal     | 8        | 10       | 15       | 21       | 32       | 64       | 256              | 500              | 512 | 1000 |
+| ------------ | -------- | -------- | -------- | -------- | -------- | -------- | ---------------- | ---------------- | --- | ---- |
+| Hexadecimaal |          |          |          |          |          |          |                  |                  |     |      |
+| Binair       | 00001000 | 00001010 | 00001111 | 00010101 | 00100000 | 01000000 | 0000000100000000 | 0000000111100100 |     |      |
 
 Hoe geeft Python deze data formats weer? Hoe kun je Python gebruiken om deze data forms naar elkaar te converteren? Beschrijf hieronder in je eigen woorden.
 

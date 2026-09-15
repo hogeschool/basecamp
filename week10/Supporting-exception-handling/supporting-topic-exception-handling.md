@@ -1,7 +1,7 @@
 # Supporting topic — Exception handling (Arch 3)
 
 > Omgezet uit `Assignment Exception handling Arch 3.docx`.
-> Het origineel staat in [`lesmateriaal/week10/Lesson material`](../lesmateriaal/week10/Lesson%20material).
+> Het origineel staat in [`lesmateriaal/week10/Lesson material`](../../lesmateriaal/week10/Lesson%20material).
 > Dit is het lege format van de opleiding — invullen doe je zelf.
 
 ---

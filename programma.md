@@ -262,10 +262,10 @@ De volledige lijst uit `Checklist final dossier - 2627.docx`. A = assignment (ve
 
 | Week | Onderwerp | Format |
 |---|---|---|
-| 2 | Data formats | [week02/supporting-topic-data-formats.md](./week02/Supporting-data-formats/supporting-topic-data-formats.md) |
-| 5 | Debugging & testing | [week05/supporting-topic-testing-debugging.md](./week05/supporting-topic-testing-debugging.md) |
-| 7 | Unit testing | [week07/supporting-topic-unit-testing.md](./week07/supporting-topic-unit-testing.md) |
-| 10 | Exception handling | [week10/supporting-topic-exception-handling.md](./week10/supporting-topic-exception-handling.md) |
+| 2 | Data formats | [supporting-topic-data-formats.md](./week02/Supporting-data-formats/supporting-topic-data-formats.md) |
+| 5 | Debugging & testing | [supporting-topic-testing-debugging.md](./week05/Supporting-testing-debugging/supporting-topic-testing-debugging.md) |
+| 7 | Unit testing | [supporting-topic-unit-testing.md](./week07/Supporting-unit-testing/supporting-topic-unit-testing.md) |
+| 10 | Exception handling | [supporting-topic-exception-handling.md](./week10/Supporting-exception-handling/supporting-topic-exception-handling.md) |
 
 ## Evaluatiecyclus
 
