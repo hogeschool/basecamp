@@ -10,8 +10,10 @@
 
 The activities are designed based on these following references:
 
-- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
-- **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
+- **BRef-01-2ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 2nd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- **BRef-01-3ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 3rd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-3rd/9781098174392/)
+- **BRef-02**: Book, Mark Lutz; "Learning Python: Powerful Object-Oriented Programming"; [Available here](https://www.oreilly.com/library/view/learning-python-6th/9781098171292/)
+
 
 ## Path:
 
@@ -26,14 +28,14 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using BaseCamp Tutorial [Available here](./bc-w05-python-tutorial.md) and **BRef-01: Chapter 07** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 07, Tuples and Lists** / **BRef-01-3ed: Chapter 08, Tuples and Lists** answer and experiment the following questions:
    1. What is a tuple in Python and how is it defined?
    2. How can one combine and compare two (or more) tuples?
    3. How can one iterate over the elements of a tuple?
    4. How is a tuple modified?
 
 #### Exercises:
-1. You can create a tuple with mixed types in it, for example texts and numbers. Can you think of a advantage and a disadvantage of doing this? Implement your example.
+1. You can create a tuple with mixed types in it, for example texts and numbers. Can you think of an advantage and a disadvantage of doing this? Implement your example.
 2. Create a tuple with three numbers in it. Unpack the tuple into three different variables. Print the last one.
 3. Create a tuple with two numbers in it, create a second tuple with two texts in it. Add them together into a new tuple. Print the new tuple.
 4. Create a tuple with three numbers in it. Use a for loop to iterate over each value. Multiply each value by 2 and print each result.
@@ -54,7 +56,7 @@ After taking this step, you will be able to:
 #### What to Learn?
 
 
-1. Using BaseCamp Tutorial [Available here](./bc-w05-python-tutorial.md) and **BRef-01: Chapter 07** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 07, Tuples and Lists** / **BRef-01-3ed: Chapter 08, Tuples and Lists** answer and experiment the following questions:
    1. What is a list in Python and how is it defined?
    2. What is the result of *split()* on a string?
    3. There are two ways to get items from a list: offset and slice. What are the pros / cons of each? Experiment with some examples.
@@ -110,7 +112,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using BaseCamp Tutorial [Available here](./bc-w05-python-tutorial.md) and **BRef-01: Chapter 09** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 09, Functions** / **BRef-01-3ed: Chapter 10, Functions** answer and experiment the following questions:
    1. What are the positional arguments in Python? What about keyword arguments?
    2. How can one define default values for function parameters?
    3. What are Docstrings? How can they be helpful?
@@ -134,8 +136,6 @@ print(result)
 
 
 4. Design two exercises of your own. They should improve understanding topics of this step.
-
-5. **Extra:** Provide your solutions to the exercises of **ORef-01: Functions**
 
 
 <hr>
