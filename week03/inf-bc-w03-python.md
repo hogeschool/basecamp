@@ -144,7 +144,7 @@ After taking this step, you will be able to:
 
 1. For each of the following given codes:
 	- Without executing the code try to read the code and write down what will be the output.
-	- Use the [Python Code Visualizer](https://cscircles.cemc.uwaterloo.ca/visualize) and execute the code step-by-step. Observe how the variables and statements are executing in each iteration of the loops.
+	- Use the [Python Code Visualizer](https://pythontutor.com/visualize.html#mode=edit) and execute the code step-by-step. Observe how the variables and statements are executing in each iteration of the loops.
 
  ```python
 # Code 1
