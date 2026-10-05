@@ -425,7 +425,7 @@ This interaction uses GenAI to support the **learning process**, rather than rep
 
 ---
 
-# 15. Think → Ask → Evaluate → Verify
+# 15. Think, Ask, Evaluate, Verify, Learn
 
 A useful workflow for studying with GenAI is:
 
