@@ -9,7 +9,8 @@
 
 The activities are designed based on these following references:
 
-- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- **BRef-01-2ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 2nd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- **BRef-01-3ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 3rd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-3rd/9781098174392/)
 - **ORef-02**: Online Tutorial; Lucas Lofaro; "Working With JSON Data in Python"; [Available here](https://realpython.com/python-json/)
 - **ORef-03**: Online Tutorial; Jon Fincher; "Reading and Writing CSV Files in Python"; [Available here](https://realpython.com/python-csv/)
 
@@ -26,7 +27,7 @@ After taking this step, you will be able to:
 ```
 #### What ro learn?
 
-1. Using **BRef-01: Chapter 16**, **ORef-02** and **ORef-03** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 16** / **BRef-01-3ed: Chapter 23**, **ORef-02** and **ORef-03** answer and experiment the following questions:
    1. What is a csv file? How can one read the content of a csv file?
    2. What is a JSON file? How can one read the content of a JSON file?
    3. Given a csv file, how can we process the records? Experiment with an example where:

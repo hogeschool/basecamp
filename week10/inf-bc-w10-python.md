@@ -8,8 +8,8 @@
 
 The activities are designed based on these following references:
 
-- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
-- **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
+- **BRef-01-2ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 2nd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- **BRef-01-3ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 3rd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-3rd/9781098174392/)
 
 
 ## Path:
@@ -25,7 +25,7 @@ After taking this step, you will be able to:
 
 #### What to Learn?
 
-1. Using **BRef-01: Chapter 12**, **BRef-01: Chapter 14**, **ORef-01: Chapter 7** and **ORef-01: Chapter 11** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 12**, **BRef-01-2ed: Chapter 14** / **BRef-01-3ed: Chapter 17**, **BRef-01-3ed: Chapter 18**, **BRef-01-3ed: Chapter 20**  answer and experiment the following questions:
    1. What is encoding and decoding?
    2. How can we encode a string to bytes in Python? How can we decode some bytes to a string?
    3. What are text data and binary data? Experiment with some examples.

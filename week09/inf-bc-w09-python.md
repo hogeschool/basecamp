@@ -8,8 +8,8 @@
 
 The activities are designed based on these following references:
 
-- **BRef-01**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; [Available here](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
-- **ORef-01**: Online Tutorial; Charles Severance; "Python for Everybody"; [Available here](https://books.trinket.io/pfe/index.html)
+- **BRef-01-2ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 2nd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
+- **BRef-01-3ed**: Book, Bill Lubanovic; "Introducing Python: Modern Computing in Simple Packages"; 3rd Edition; [Available here](https://learning.oreilly.com/library/view/introducing-python-3rd/9781098174392/)
 
 
 ## Path:
@@ -27,7 +27,7 @@ After taking this step, you will be able to:
 #### What to Learn?
 
 
-1. Using **BRef-01: Chapter 10** answer and experiment the following questions:
+1. Using **BRef-01-2ed: Chapter 10** / **BRef-01-3ed: Chapter 11** answer and experiment the following questions:
    1. What is an Object in Python?
    2. What is a class and how can you define a class in Python? Make an example.
    3. How can you create and use an object from a class? Experiment with examples.
