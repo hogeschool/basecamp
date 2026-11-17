@@ -93,7 +93,7 @@ After taking this step, you will be able to:
 1. Using **BRef-01-2ed: Chapter 07, Tuples and Lists** / **BRef-01-3ed: Chapter 08, Tuples and Lists** answer and experiment the following questions:
    1. We have learned *join()* on a string. How does *join()* work in a list?
    2. How can we sort items of a list? Is this possible on a tuple?
-   3. There are several ways to copy a list: *list(), slicing, copy()* and *deepcopy()*. Experiment different expamples for each technique.
+   3. There are several ways to copy a list: *list(), slicing, copy()* and *deepcopy()*. Experiment different examples for each technique.
    4. How can one build a list using *list comprehension* (for more check [here](https://www.brianheinold.net/python/python_book.html#section_list_comp))? Do we have *tuple comprehension*?
 
 #### Exercises:
